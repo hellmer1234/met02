@@ -37,7 +37,3 @@
     </div>
 </div>
 {/block}
-
-
-
-</div>
