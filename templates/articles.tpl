@@ -37,3 +37,15 @@
     </div>
 </div>
 {/block}
+
+{block name="left"}
+    {include file="categories.tpl"}
+{/block}
+
+{block name="right_haut"}
+    {include file="connexion.tpl"}
+{/block}
+
+{block name="right_bas"}
+    {include file="news.tpl"}
+{/block}

@@ -49,31 +49,36 @@
              style="background-color:red;">
             <h3>Colonne gauche</h3>
 
-            <div style="background-color:skyblue;">
-                <h4>Catégories</h4>
-            </div>
-
+            {block name="left"}
+                {$smarty.block.child}
+            {/block}
 
         </div>
 
+
+
         {block name="content"}
-        {$smarty.block.child}
+            {$smarty.block.child}
         {/block}
+
+
 
         <div class="container col-xs-12 col-sm-3 col-md-3 col-lg-2 col-lg-offset-0"
              style="background-color:green;">
             <h3>Colonne droite</h3>
 
-            <div style="background-color:indianred;">
-                <h4>Inscription/Panier</h4>
+            {block name="right_haut"}
+                {$smarty.block.child}
+            {/block}
 
-                <br/>
-                Pas encore de compte : <a href="#">S'inscrire</a>
-            </div>
 
-            <div style="background-color:skyblue;">
-                <h4>News</h4>
-            </div>
+
+
+
+                {block name="right_bas"}
+                    {$smarty.block.child}
+                {/block}
+
         </div>
 
     </div>
