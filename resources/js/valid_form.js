@@ -7,35 +7,35 @@ function checkForm()
     if($('input[name^=passwordinput_saisie]').val() != "" && $('input[name^=passwordinput_saisie]').val() == $('input[name^=passwordinput_confirm]').val()) {
 
         if($('input[name^=passwordinput_saisie]').val().length() < 6) {
-        erreur +="Erreur: Le mot de passe doit contenir au moins 6 caractères!";
+        erreur +="Le mot de passe doit contenir au moins 6 caractères!";
             $('input[name^=passwordinput_saisie]').focus();
         return erreur;
         }
     if($('input[name^=passwordinput_saisie]').val() == $('input[name^=textinput_email]').val()) {
-        erreur +="Erreur: Le mot de passe doit être différent du nom d'utilisateur!";
+        erreur +="Le mot de passe doit être différent du nom d'utilisateur!";
         $('input[name^=passwordinput_saisie]').focus();
         return erreur;
         }
     re = /[0-9]/;
     if(!re.test($('input[name^=passwordinput_saisie]').val())) {
-        erreur +="Erreur: Le mot de passe doit contenir au moins un chiffre (0-9)!";
+        erreur +="Le mot de passe doit contenir au moins un chiffre (0-9)!";
         $('input[name^=passwordinput_saisie]').focus();
         return erreur;
         }
     re = /[a-z]/;
     if(!re.test($('input[name^=passwordinput_saisie]').val())) {
-        erreur +="Erreur: Le mot de passe doit contenir au moins une lettre minuscule (a-z)!";
+        erreur +="Le mot de passe doit contenir au moins une lettre minuscule (a-z)!";
         $('input[name^=passwordinput_saisie]').focus();
         return erreur;
         }
     re = /[A-Z]/;
     if(!re.test($('input[name^=passwordinput_saisie]').val())) {
-        erreur +="Erreur: Le mot de passe doit contenir au moins une lettre majuscule (A-Z)!";
+        erreur +="Le mot de passe doit contenir au moins une lettre majuscule (A-Z)!";
         $('input[name^=passwordinput_saisie]').focus();
         return erreur;
         }
     } else {
-        erreur +="Erreur: Vérifier que le mot de passe a été saisi!";
+        erreur +="Vérifier que le mot de passe a été saisi!";
         $('input[name^=passwordinput_saisie]').focus();
         return erreur;
         }
@@ -53,9 +53,10 @@ $("#button_valider").click(
 
             if (result != true)
             {
-                content = ""
+                content = '<div class=\"alert alert-error\"><a class=\"close\" data-dismiss=\"alert\">×</a><strong>Erreur!  </strong>' + result + '</div>';
 
-                $('#erreur_catch').val(result);
+
+                $('#erreur_catch').html(content);
                 $('#erreur_catch').show();
             }
             return false;

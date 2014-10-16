@@ -14,4 +14,4 @@ $smarty->assign(array(
 
 
 
-$smarty->display("./templates/parent.tpl");
+$smarty->display("./templates/articles.tpl");

@@ -26,8 +26,7 @@
 
         <div class="form-group">
 
-            <div id="erreur_catch" class="col-md-9 alert alert-error" >
-                <a class="close" data-dismiss="alert">×</a>
+            <div id="erreur_catch" class="col-md-5  col-md-offset-4"  >
 
             </div>
         </div>
