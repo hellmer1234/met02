@@ -1,0 +1,12 @@
+{
+    "name": "vendor/package", "description": "MET02 - Boutique en ligne", "license": "GPL3.0+",
+    "authors": [
+        { "name": "Eloise Faust",
+            "email": "eloise.faust@gmail.com" },
+        { "name": "Louis-Marie Richard",
+            "email": "hellmer@gmail.com" }],
+    "require" : {
+    "twitter/bootstrap": "v2.3.1",
+    "smarty/smarty": "3.1.*"
+    }
+}
