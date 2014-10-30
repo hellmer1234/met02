@@ -1,6 +1,7 @@
 <?php
 
-require("../resources/smarty/smarty.class.php"); // On inclut la classe Smarty
+//require("../resources/smarty/smarty.class.php"); // On inclut la classe Smarty
+require("./vendor/smarty/smarty/libs/Smarty.class.php"); // On inclut la classe Smarty
 
 $smarty = new Smarty();
 

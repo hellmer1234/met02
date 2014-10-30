@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.20, created on 2014-10-16 15:13:51
+<?php /* Smarty version Smarty-3.1.21, created on 2014-10-30 16:56:52
          compiled from "templates/articles.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:541252018543fd93e0dbc99-29154890%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -39,7 +39,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.20',
+  'version' => 'Smarty-3.1.21',
   'unifunc' => 'content_543fd93e137303_91834618',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -49,8 +49,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta charset="utf-8">
     <title>L'empire des vis - Accueil</title>
 
-    <script src="../resources/jquery/js/jquery.min.js"></script>
-    <script src="../resources/bootstrap/js/bootstrap.js"></script>
+    <?php echo '<script'; ?>
+ src="../resources/jquery/js/jquery.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../resources/bootstrap/js/bootstrap.js"><?php echo '</script'; ?>
+>
     <link rel="stylesheet" href="../resources/jquery/css/jquery.min.css">
     <link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./resources/css/web.css">
@@ -99,7 +103,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <?php /*  Call merged included template "categories.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("categories.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '541252018543fd93e0dbc99-29154890');
-content_543fe0af711bd5_67687435($_smarty_tpl);
+content_54525fc4e3af75_34722538($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "categories.tpl" */?>
 
@@ -164,7 +168,7 @@ $_smarty_tpl = array_pop($_tpl_stack);
     <?php /*  Call merged included template "connexion.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("connexion.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '541252018543fd93e0dbc99-29154890');
-content_543fe0af7282c9_48895731($_smarty_tpl);
+content_54525fc4e59734_59172634($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "connexion.tpl" */?>
 
@@ -179,7 +183,7 @@ $_smarty_tpl = array_pop($_tpl_stack);
     <?php /*  Call merged included template "news.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("news.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '541252018543fd93e0dbc99-29154890');
-content_543fe0af738bb2_77877253($_smarty_tpl);
+content_54525fc4e665c2_68474546($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "news.tpl" */?>
 
@@ -200,23 +204,23 @@ $_smarty_tpl = array_pop($_tpl_stack);
 
 </body>
 </html><?php }} ?>
-<?php /* Smarty version Smarty-3.1.20, created on 2014-10-16 15:13:51
+<?php /* Smarty version Smarty-3.1.21, created on 2014-10-30 16:56:52
          compiled from "./templates/categories.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_543fe0af711bd5_67687435')) {function content_543fe0af711bd5_67687435($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_54525fc4e3af75_34722538')) {function content_54525fc4e3af75_34722538($_smarty_tpl) {?>
 <div style="background-color:skyblue;">
     <h4>Catégories</h4>
 </div><?php }} ?>
-<?php /* Smarty version Smarty-3.1.20, created on 2014-10-16 15:13:51
+<?php /* Smarty version Smarty-3.1.21, created on 2014-10-30 16:56:52
          compiled from "./templates/connexion.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_543fe0af7282c9_48895731')) {function content_543fe0af7282c9_48895731($_smarty_tpl) {?><div style="background-color:indianred;">
+<?php if ($_valid && !is_callable('content_54525fc4e59734_59172634')) {function content_54525fc4e59734_59172634($_smarty_tpl) {?><div style="background-color:indianred;">
     <h4>Inscription/Panier</h4>
 
     <br/>
     Pas encore de compte : <a href="#">S'inscrire</a>
 </div><?php }} ?>
-<?php /* Smarty version Smarty-3.1.20, created on 2014-10-16 15:13:51
+<?php /* Smarty version Smarty-3.1.21, created on 2014-10-30 16:56:52
          compiled from "./templates/news.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_543fe0af738bb2_77877253')) {function content_543fe0af738bb2_77877253($_smarty_tpl) {?><div style="background-color:skyblue;">
+<?php if ($_valid && !is_callable('content_54525fc4e665c2_68474546')) {function content_54525fc4e665c2_68474546($_smarty_tpl) {?><div style="background-color:skyblue;">
 
     <h4>News</h4>
 
