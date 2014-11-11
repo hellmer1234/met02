@@ -35,7 +35,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#">Catalogue</a></li>
-                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Mon compte</a></li>
                     <li><a href="#">Menu 3</a></li>
                     <li><a href="#">Contactez nous</a></li>
 
