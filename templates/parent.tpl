@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
@@ -16,31 +16,28 @@
 
 <div class="container">
 
-    <div class="row" style="border:1px solid #ddd;">
+    <header class="row" style="border:1px solid #ddd;">
         <div style="background-color:aqua;height:100px;">
             <h1>L'empire des vis</h1>
         </div>
-    </div>
+    </header>
 
     <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Rechercher">
+                </div>
+                <button type="submit" class="btn btn-default glyphicon glyphicon-search"> Rechercher...</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 2</a></li>
+                <li><a href="#">Menu 3</a></li>
+                <li><a href="#">Contactez nous</a></li>
 
-                <form class="navbar-form navbar-left" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Rechercher">
-                    </div>
-                    <button type="submit" class="btn btn-default glyphicon glyphicon-search">  Rechercher...</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Menu 1</a></li>
-                    <li><a href="#">Menu 2</a></li>
-                    <li><a href="#">Menu 3</a></li>
-                    <li><a href="#">Contactez nous</a></li>
-
-                </ul>
-            </div>
+            </ul>
         </div>
     </nav>
 
@@ -72,23 +69,20 @@
             {/block}
 
 
-
-
-
-                {block name="right_bas"}
-                    {$smarty.block.child}
-                {/block}
+            {block name="right_bas"}
+                {$smarty.block.child}
+            {/block}
 
         </div>
 
     </div>
 
-    <div class="row" style="border:1px solid #ddd;">
+    <footer class="row" style="border:1px solid #ddd;">
         <div class="col-xs-12 col-sm-9 col-md-9 col-lg-12 col-lg-offset-0"
              style="background-color:mistyrose;height:100px;">
             <h3>Footer</h3>
         </div>
-    </div>
+    </footer>
 
 </div>
 

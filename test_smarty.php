@@ -1,6 +1,5 @@
 <?php
 
-//require("../resources/smarty/smarty.class.php"); // On inclut la classe Smarty
 require("./vendor/smarty/smarty/libs/Smarty.class.php"); // On inclut la classe Smarty
 
 $smarty = new Smarty();
@@ -15,4 +14,4 @@ $smarty->assign(array(
 
 
 
-$smarty->display("./templates/articles.tpl");
+$smarty->display("./templates/fichearticle.tpl");

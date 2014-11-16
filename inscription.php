@@ -7,10 +7,10 @@
 
     <title>L'empire des vis - Inscription</title>
 
-    <script src="../resources/jquery/js/jquery.min.js"></script>
-    <script src="../resources/bootstrap/js/bootstrap.js"></script>
-    <link rel="stylesheet" href="../resources/jquery/css/jquery.min.css">
-    <link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css">
+    <script src="./resources/jquery/js/jquery.min.js"></script>
+    <script src="./resources/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="./resources/jquery/css/jquery.min.css">
+    <link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./resources/css/web.css">
 
 
