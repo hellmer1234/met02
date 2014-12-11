@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<database name="librairie" defaultIdMethod="native">
+
+    <table name="livre" description="Livre Table">
+        <column name="id" required="true" primaryKey="true" autoIncrement="true" type="INTEGER" description="Id du Livre" />
+        <column name="titre" type="VARCHAR" required="true" description="Titre du livre" primaryString="true" />
+        <column name="isbn" required="true" type="VARCHAR" size="24" phpName="ISBN" description="ISBN" />
+        <column name="prix" required="false" type="FLOAT" description="Prix du livre" />
+		<column name="description" required="false" type="VARCHAR" size="2048" description="Description du livre" />
+		<column name="photo" required="false" type="VARCHAR" size="2048" description="Photo du livre" />
+    </table>
+    <table name="client" allowPkInsert="true">
+        <column name="id" type="INTEGER" primaryKey="true" autoIncrement="true" />
+        <column name="nom" type="VARCHAR" size="255" required="true" description="nom" />
+		<column name="prenom" required="true" type="VARCHAR" size="255" description="Prenom" />
+		<column name="adresse" required="false" type="VARCHAR" size="1024" description="Adresse" />
+		<column name="tel" required="false" type="NUMERIC" size="10" description="tel" />
+		<column name="codePostal" required="false" type="VARCHAR" size="5" description="codePostal" />
+		<column name="sexe" required="false" type="VARCHAR" size="1" description="Sexe" />
+		<column name="login" required="true" type="VARCHAR" size="25" description="login" />
+		<column name="email" required="false" type="VARCHAR" size="1024" description="email" />
+		<column name="pass" required="true" type="VARCHAR" size="25" description="Password" />
+    </table>
+
+</database>
