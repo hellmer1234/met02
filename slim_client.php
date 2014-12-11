@@ -1,6 +1,8 @@
 <?php
 
-$url = "http://".$_SERVER["SERVER_NAME"].":". $_SERVER["SERVER_PORT"] ."/web/slim_webservice.php/transaction/11";
+$contexte =  explode('/' , $_SERVER["REQUEST_URI"] );
+
+$url = "http://".$_SERVER["SERVER_NAME"].":". $_SERVER["SERVER_PORT"] ."/" . $contexte[1] . "/slim_webservice.php/transaction/11";
 $data = "DATA envoyée au serveur";
 $opts = array(
     'http'=>array(
