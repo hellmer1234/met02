@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<database name="librairie" defaultIdMethod="native">
+<database name="lempiredesvis" defaultIdMethod="native">
+
+
+	<table name="promotion" description="Promotion Table">
+		<column name="idpromo" required="true" primaryKey="true" autoIncrement="true" type="INTEGER" description="Numéro de la promotion"/>
+		<column name="titrepromo" required="true" type="VARCHAR" description="Titre de la promotion" />
+		<column name="datedebut"  required="true" type="DATE" description="Date de début de la promotion" />
+		<column name="datefin" required="true" type="DATE" description="Date de fin de promotion" />
+
+	</table>
+
+	<table name="article" description="Article Table">
+		<column name="idarticle" required="true" primaryKey="true" autoIncrement="true" type="INTEGER" description="Article"/>
+		<column name="referencearticle" required="true" type="VARCHAR" description="Référence de l'article" />
+		<column name="libellearticle"  required="true" type="VARCHAR" description="Libellé de l'article" />
+		<column name="descriptionarticle" required="false" type="VARCHAR" description="Description article" />
+		<column name="prixht" required="true" type="DOUBLE" description="Prix HT de l'article" />
+		<column name="qqtestock" required="true" type="INTEGER" description="Quantité en stock" />
+		<column name="dateajout" required="true" type="DATE" description="Date de création de l'article" />
+	</table>
+
+	<table name="applicationpromotion" description="Liste des articles par promotion">
+		<column name="idpromo" required="true" primaryKey="true" type="INTEGER" description="Numéro de la promotion"/>
+		<column name="idarticle" required="true" primaryKey="true" type="INTEGER" description="Article"/>
+		<column name="qqtearticlepromo"  required="false" type="INTEGER" description="Quantité d'articles en promotion" />
+		<column name="prixpromo" required="true" type="DOUBLE" description="Prix de l'article en promotion" />
+		<foreign-key foreignTable="promotion">
+		  <reference local="idpromo" foreign="idpromo" />
+		</foreign-key>
+		<foreign-key foreignTable="article">
+		  <reference local="idarticle" foreign="idarticle" />
+		</foreign-key>
+	</table>
+
+
 
     <table name="livre" description="Livre Table">
         <column name="id" required="true" primaryKey="true" autoIncrement="true" type="INTEGER" description="Id du Livre" />
