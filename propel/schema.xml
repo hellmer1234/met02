@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <database name="lempiredesvis" defaultIdMethod="native">
 
+	<table name="tauxtva" description="Table des taux de TVA">
+		<column name="numerotaux" required="true" primaryKey="true" autoIncrement="true" type="INTEGER" description="Numéro du taux"/>
+		<column name="libelletaux" required="false" type="VARCHAR" description="Libellé du taux de TVA" />
+		<column name="tauxtva"  required="true" type="DOUBLE" description="Taux de la TVA" />
+	</table>
 
 	<table name="promotion" description="Promotion Table">
 		<column name="idpromo" required="true" primaryKey="true" autoIncrement="true" type="INTEGER" description="Numéro de la promotion"/>
@@ -18,6 +23,10 @@
 		<column name="prixht" required="true" type="DOUBLE" description="Prix HT de l'article" />
 		<column name="qqtestock" required="true" type="INTEGER" description="Quantité en stock" />
 		<column name="dateajout" required="true" type="DATE" description="Date de création de l'article" />
+		<column name="tauxtva" required="false" type="DOUBLE" description="Taux de TVA de l'article" />
+		<foreign-key foreignTable="tauxtva">
+		  <reference local="tauxtva" foreign="tauxtva" />
+		</foreign-key>
 	</table>
 
 	<table name="applicationpromotion" description="Liste des articles par promotion">
@@ -32,6 +41,11 @@
 		  <reference local="idarticle" foreign="idarticle" />
 		</foreign-key>
 	</table>
+
+	
+
+
+
 
 
 

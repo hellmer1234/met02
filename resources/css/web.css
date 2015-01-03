@@ -20,3 +20,12 @@ h1
 .alert-error .alert-heading {
     color: #b94a48;
 }
+
+table {
+	border:1px solid black;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid black;
+}
