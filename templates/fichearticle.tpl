@@ -25,7 +25,7 @@
 
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-offset-8 col-md-offset-6 col-sm-offset-6">
-			<input type="number" /> <button class="btn btn-primary">Ajouter</button>
+			<input type="number" value="0" name="qte" id="qte"/> <button class="btn btn-primary">Ajouter</button>
 		</div>
 	</div>
 
