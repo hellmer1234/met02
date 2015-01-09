@@ -17,7 +17,7 @@
 
         <header class="row" style="border:1px solid #ddd;">
             <div style="background-color:aqua;height:100px;">
-                <h1>L'empire des vis</h1>
+                <h1><a href="index.php">L'empire des vis</a></h1>
             </div>
         </header>
 
@@ -31,7 +31,7 @@
                 </form>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.php">Accueil</a></li>
-                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="catalogue.php">Catalogue</a></li>
                     <li><a href="#">Menu 2</a></li>
                     <li><a href="#">Menu 3</a></li>
                     <li><a href="#">Contactez nous</a></li>
@@ -43,8 +43,6 @@
         <div class="row" style="border:1px solid #ddd;">
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2"
                  style="background-color:red;">
-                <h3>Colonne gauche</h3>
-
                 {block name="left"}
                     {$smarty.block.child}
                 {/block}
@@ -55,10 +53,7 @@
                 {$smarty.block.child}
             {/block}
 
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2"
-                 style="background-color:green;">
-                <h3>Colonne droite</h3>
-
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
                 {block name="right_haut"}
                     {$smarty.block.child}
                 {/block}

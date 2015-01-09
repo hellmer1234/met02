@@ -1,5 +1,6 @@
 <div style="background-color:skyblue;">
 
-    <h4>News</h4>
+    <h3>News</h3>
 
+    <p>Le site est en développement ! Supayr !</p>
 </div>

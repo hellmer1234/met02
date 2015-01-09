@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <config>
     <propel>
-        <datasources default="librairie">
-            <datasource id="librairie">
+        <datasources default="lempiredesvis">
+            <datasource id="lempiredesvis">
                 <adapter>mysql</adapter>
                 <connection>
-                    <dsn>mysql:host=localhost;dbname=librairie</dsn>
+                    <dsn>mysql:host=localhost;dbname=lempiredesvis</dsn>
                     <user>root</user>
-                    <password>pass</password>
+                    <password>root</password>
 					                    <options>
                     <option id="ATTR_PERSISTENT">false</option>
                     </options>

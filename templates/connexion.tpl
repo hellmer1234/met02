@@ -1,6 +1,10 @@
-<div style="background-color:indianred;">
-    <h4>Inscription/Panier</h4>
+<div>
+    <h3>Compte client</h3>
 
-    <br/>
-    Pas encore de compte : <a href="inscription.php">S'inscrire</a>
+    <form action="#" method="post">
+    	<label for="login">Identifiant : </label><input type="text" class="form-control input-md" name="login" id="login" /><br />
+    	<label for="mdp">Mot de passe : </label><input type="password" class="form-control input-md" name="mdp" id="mdp" /><br />
+    	<input class="btn btn-primary" type="submit" value="Se connecter" />
+    </form>
+    
 </div>

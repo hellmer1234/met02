@@ -3,7 +3,7 @@
 
 	<table name="client" description="Table des clients">
 		<column name="idclient" required="true" primaryKey="true" autoIncrement="true" type="INTEGER" description="Identifiant du client"/>
-		<column name="login" required="true" type="VARCHAR" size="55"description="Login du client = adresse mail" />
+		<column name="login" required="true" type="VARCHAR" size="55" description="Login du client = adresse mail" />
 		<column name="mdp"  required="true" type="VARCHAR" size="24" description="Mot de passe du client" />
 		<column name="nom" required="true" type="VARCHAR" size="24" description="Nom du client" />
 		<column name="prenom" required="true" type="VARCHAR" size="24" description="Prenom du client" />
@@ -47,9 +47,9 @@
 		<column name="prixht" required="true" type="DOUBLE" description="Prix HT de l'article" />
 		<column name="qqtestock" required="true" type="INTEGER" description="Quantite en stock" />
 		<column name="dateajout" required="true" type="DATE" description="Date de creation de l'article" />
-		<column name="tauxtva" required="true" type="DOUBLE" description="Taux de TVA de l'article" />
+		<column name="idtaux" required="true" type="DOUBLE" description="Taux de TVA de l'article" />
 		<foreign-key foreignTable="tauxtva">
-		  <reference local="tauxtva" foreign="idtaux" />
+		  <reference local="idtaux" foreign="idtaux" />
 		</foreign-key>
 	</table>
 
