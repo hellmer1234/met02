@@ -23,8 +23,6 @@ foreach ($listeArticles as $article) {
 
 $smarty->assign('catalogue', $catalogue);
 
-// $smarty->assign('categories', $categories);
-
 $smarty->display("./templates/catalogue.tpl");
 
 ?>
