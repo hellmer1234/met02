@@ -1,44 +1,29 @@
 <?php
 
-require("./vendor/smarty/smarty/libs/Smarty.class.php"); // On inclut la classe Smarty
+require ("initPage.php");
 
+$listeArticles = array();
 
-$smarty = new Smarty();
-
-include('conf.inc.php');
-try{
-	$dsn = "mysql:host=localhost;port=3306;dbname=$db";
-	
-	$pdo = new PDO($dsn, $user, $pass, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
-} catch (PDOException $e){
-	die('Erreur : ' . $e->getMessage());
+if(empty($_GET) || intval($_GET['categorie']) == 0){
+	$listeArticles = ArticleQuery::create()->find();
+} else {
+	$idCategorie = intval($_GET['categorie']);
+	$listeCat = CatalogueQuery::create()->findByIdCategorie($idCategorie);
+	foreach($listeCat as $cat){
+		$article = ArticleQuery::create()->findPk($cat->getIdArticle());
+		array_push($listeArticles, $article);
+	}
 }
-
 $catalogue = array();
 $categories = array();
 
-$request = "SELECT * FROM categorie";
-
-$stmt = $pdo->query($request);
-while($row = $stmt->fetch()) {
-	$categories[$row['idcategorie']] = array('id' => $row['idcategorie'], 'nom' => $row['libellecategorie']);
-}
-
-if(empty($_POST) || $_POST['categorie'] == 0)
-{
-	$request = "SELECT referencearticle as ref, libellearticle as nom, descriptionarticle as `desc`, prixht FROM article";
-} else {
-	$request = "SELECT referencearticle as ref, libellearticle as nom, descriptionarticle as `desc`, prixht FROM article WHERE idarticle IN (SELECT idarticle FROM catalogue WHERE idcategorie = " . $_POST['categorie'] . ")";
-}
-
-$stmt = $pdo->query($request);
-while($row = $stmt->fetch()) {
-	$catalogue[$row['ref']] = array('ref' => $row['ref'],'nom' => $row['nom'], 'desc' => $row['desc'], 'prix' => number_format($row['prixht'], 2) . ' € HT');
+foreach ($listeArticles as $article) {
+	$catalogue[count($catalogue)] = array("id" => $article->getIdArticle(), "nom" => $article->GetLibelleArticle(), "desc" => $article->getDescriptionArticle(), "prix" =>$article->getPrixHT());
 }
 
 $smarty->assign('catalogue', $catalogue);
 
-$smarty->assign('categories', $categories);
+// $smarty->assign('categories', $categories);
 
 $smarty->display("./templates/catalogue.tpl");
 

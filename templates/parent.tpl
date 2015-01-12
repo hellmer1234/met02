@@ -32,7 +32,11 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.php">Accueil</a></li>
                     <li><a href="catalogue.php">Catalogue</a></li>
+                    {if $connected}
                     <li><a href="#">Compte</a></li>
+                    {else}
+                    <li><a href="#">Panier</a></li>
+                    {/if}
                     <li><a href="#">L'Empire des Vis</a></li>
                     <li><a href="#">Contactez nous</a></li>
 

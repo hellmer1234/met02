@@ -1,38 +1,25 @@
 <?php
 
-require("./vendor/smarty/smarty/libs/Smarty.class.php"); // On inclut la classe Smarty
+require ("initPage.php");
 
-$smarty = new Smarty();
+$idarticle = intval($_GET["article"]); // Intval permet d'être sur d'avoir une valeur entière. Si convertion impossible, retourne 0
 
-$refarticle = $_GET["article"];
+$article = ArticleQuery::create()->findPk($idarticle);
 
-include('conf.inc.php');
-try{
-	$dsn = "mysql:host=localhost;port=3306;dbname=$db";
-	
-	$pdo = new PDO($dsn, $user, $pass, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
-} catch (PDOException $e){
-	die('Erreur : ' . $e->getMessage());
+$smarty->assign("refarticle", $article->GetReferenceArticle());
+$smarty->assign("nom", $article->GetLibelleArticle());
+$smarty->assign("description",$article->GetDescriptionArticle());
+$smarty->assign("prixht",number_format($article->getPrixHT(), 2));
+$smarty->assign("stock",$article->getQqteStock());
+
+$listeAvis = AvisQuery::create()->findByIdArticle($idarticle);
+$tabAvis = array();
+echo '<pre>';
+foreach($listeAvis as $avis){
+	$tabAvis[count($tabAvis)] = array("redacteur" => $avis->getRedacteur(), "note" => $avis->getNote(), "contenu" => $avis->getDescriptionAvis());
 }
-
-$request = "SELECT referencearticle as ref, libellearticle as nom, descriptionarticle as `desc`, prixht, qqtestock, idtaux FROM article WHERE referencearticle LIKE '$refarticle'";
-
-$stmt = $pdo->query($request);
-$infosarticle = $stmt->fetch();
-
-$avis = array();
-$request = "SELECT * from avis WHERE idarticle = (SELECT idarticle FROM article WHERE referencearticle LIKE '$refarticle')";
-$stmt = $pdo->query($request);
-while ($row = $stmt->fetch()){
-	$avis[$row['idavis']] = array('redacteur' => $row['redacteur'], 'note' => $row['note'], 'contenu' => $row['descriptionavis']);
-}
-
-$smarty->assign("refarticle", $infosarticle['ref']);
-$smarty->assign("nom", $infosarticle['nom']);
-$smarty->assign("description",$infosarticle['desc']);
-$smarty->assign("prixht",number_format($infosarticle['prixht'], 2));
-$smarty->assign("stock",$infosarticle['qqtestock']);
-$smarty->assign("listeavis", $avis);
+echo '</pre>';
+$smarty->assign("listeavis", $tabAvis);
 
 $smarty->display("./templates/fichearticle.tpl");
 

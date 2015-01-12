@@ -1,7 +1,7 @@
 {extends file="parent.tpl"}
 {block name="content"}
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-lg-offset-0"
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7"
      style="background-color:orange;">
     <h3>Accueil du site</h3>
 

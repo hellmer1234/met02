@@ -6,13 +6,13 @@
 	<h4>Catalogue</h4>
 
 	<div class="row">
-		<form action="catalogue.php" method="post">
+		<form action="catalogue.php" method="get">
 			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
 				<label for="categorie">Catégorie</label>
 				<select name="categorie" id="categorie" class="form-control">
 						<option value="0">Tout</option>
-					{foreach from=$categories item=categorie}
-						<option value="{$categorie.id}">{$categorie.nom}</option>
+					{foreach $Categories as $Categorie}
+						<option value="{$Categorie.id}">{$Categorie.libelle}</option>
 					{/foreach}
 				</select>
 			</div>
@@ -30,11 +30,11 @@
 	{foreach from=$catalogue item=produit}
 	<div class="row catalogue-item">
 		<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-			<p><a href="fichearticle.php?article={$produit.ref}">{$produit.nom}</a><br />
+			<p><a href="fichearticle.php?article={$produit.id}">{$produit.nom}</a><br />
 			{$produit.desc}</p>
 		</div>
 		<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
-			<p>{$produit.prix}<br />
+			<p>{$produit.prix} € HT<br />
 			<a href="#" class="btn btn-primary">Ajouter au panier</a></p>
 		</div>
 	</div>
