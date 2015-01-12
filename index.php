@@ -1,8 +1,30 @@
 <?php
 
+// Inclusion de Propel
+require_once './vendor/propel/propel1/runtime/lib/Propel.php';
+// Initialisation de Propel avec le fichier de configuration
+Propel::init("./propel/build/conf/lempiredesvis-conf.php");
+// Rajout des classes générées dans le include path
+set_include_path("./propel/build/classes/" . PATH_SEPARATOR . get_include_path());
+
 require("./vendor/smarty/smarty/libs/Smarty.class.php"); // On inclut la classe Smarty
 
 $smarty = new Smarty();
+
+$categories = CategorieQuery::create()->find();
+
+$smarty->assign(array("nbCategories" => count($categories)));
+
+$tabcategories = array();
+for ($i = 0; $i < count($categories); $i++)
+{
+    $myCategorie = $categories[$i];
+    $tabcategories[count($tabcategories)] = array($myCategorie->getIdcategorie(), $myCategorie->getLibellecategorie());
+}
+$smarty->assign("Categories" , $tabcategories);
+
+
+
 
 // TODO: Récupérer les articles en promo
 $smarty->assign(array(

@@ -27,7 +27,7 @@ require_once dirname(__FILE__) . "/Arg.php";
  * Symfony Console Task
  * @author nuno costa <nuno@francodacosta.com>
  * @license GPL
- * @version $Id$
+ * @version $Id: efe4ae878279479988028c5887822af6e10fea56 $
  * @package phing.tasks.ext.symfony
  */
 class SymfonyConsoleTask extends Task
