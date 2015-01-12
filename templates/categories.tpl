@@ -4,8 +4,8 @@
 
 
     <ul>
-        {foreach $Categories as $itemvar}
-        <li><a href="index.php?theme=categorie&id={$itemvar[0]}">{$itemvar[1]}</a></li>
+        {foreach $Categories as $Categorie}
+        <li><a href="index.php?theme=categorie&id={$Categorie.id}">{$Categorie.libelle}</a></li>
         {/foreach}
 
     </ul>

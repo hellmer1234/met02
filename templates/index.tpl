@@ -9,8 +9,8 @@
 
     	<h4>Articles en promotion :</h4>
     	<ul>
-            {foreach $ArticlesPromotion as $itemvar}
-                <li><a href="fichearticle.php?article={$itemvar[0]}">{$itemvar[1]}</a></li>
+            {foreach $ArticlesPromotion as $articlepromo}
+                <li><a href="fichearticle.php?article={$articlepromo.id}">{$articlepromo.libelle}</a></li>
             {/foreach}
         </ul>
 
@@ -21,8 +21,8 @@
 
     	<h4>Les 5 derniers articles :</h4>
     	<ul>
-            {foreach $Articles as $itemvar}
-                <li><a href="fichearticle.php?article={$itemvar[0]}">{$itemvar[1]}</a></li>
+            {foreach $Articles as $article}
+                <li><a href="fichearticle.php?article={$article.id}">{$article.libelle}</a></li>
             {/foreach}
         </ul>
 
