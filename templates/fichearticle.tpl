@@ -1,9 +1,9 @@
 {extends file="parent.tpl"}
 {block name="content"}
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-lg-offset-0"
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7"
      style="background-color:orange;">
-	<h4>Article {$refarticle}</h4>
+	<h4>Article {$nom}</h4>
 
 	<div class="row">
 		
@@ -14,7 +14,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: darkgrey">
 			<div class="row">
-				{$prixttc}€
+				{$prixht} € HT
 			</div>
 			<div class="row">
 				Stock restant : {$stock} pièces
@@ -42,9 +42,13 @@
 		</table>
 	</div>
 
-	<div class="row">
-		LISTE DES AVIS
+	{foreach from=$listeavis item=avis}
+	<div class="row avis">
+		<div class="infosAvis">Rédacteur : {$avis.redacteur}<br />
+		Note : {$avis.note}</div>
+		<p>{$avis.contenu}</p>
 	</div>
+	{/foreach}
 </div>
 
 {/block}
@@ -55,4 +59,8 @@
 
 {block name="right_haut"}
     {include file="connexion.tpl"}
+{/block}
+
+{block name="right_bas"}
+    {include file="news.tpl"}
 {/block}

@@ -33,7 +33,7 @@ if(empty($_POST) || $_POST['categorie'] == 0)
 
 $stmt = $pdo->query($request);
 while($row = $stmt->fetch()) {
-	$catalogue[$row['ref']] = array('ref' => $row['ref'],'nom' => $row['nom'], 'desc' => $row['desc'], 'prix' => number_format($row['prixht'], 2) . ' € HT');
+	$catalogue[$row['ref']] = array('nom' => $row['nom'], 'desc' => $row['desc'], 'prix' => number_format($row['prixht'], 2) . ' € HT');
 }
 
 $smarty->assign('catalogue', $catalogue);

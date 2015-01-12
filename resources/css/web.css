@@ -30,11 +30,19 @@ th, td {
 	border: 1px solid black;
 }
 
-header *{
-	line-height: 100px;
+#catalogue .catalogue-item{
+	border: 1px solid black;
 }
 
-#catalogue ul li div{
-	display: inline-block;
+.form-control{
 	width: auto;
+	display: inline-block;
+}
+
+.avis {
+	margin-top: 5px;
+}
+
+.infosAvis {
+	margin-bottom: 20px;
 }
