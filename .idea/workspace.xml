@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="Rajout slim_client + slim_webservice">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_propel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tasks/system/DeleteTaskTest.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tasks/system/DeleteTaskTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/jsmin/JsMin.php" afterPath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/jsmin/JsMin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/jsmin/JsMinTask.php" afterPath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/jsmin/JsMinTask.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tasks/system/LoadFileTest.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tasks/system/LoadFileTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/phploc/PHPLocTask.php" afterPath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/phploc/PHPLocTask.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/listener/StreamRequiredBuildLogger.php" afterPath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/listener/StreamRequiredBuildLogger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/SymfonyConsole/SymfonyConsoleTask.php" afterPath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/SymfonyConsole/SymfonyConsoleTask.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/337/TestPhpLintTask.php" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/337/TestPhpLintTask.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tasks/system/TouchTaskTest.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tasks/system/TouchTaskTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/UntarTask.php" afterPath="$PROJECT_DIR$/vendor/phing/phing/classes/phing/tasks/ext/UntarTask.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/propel/build.properties" afterPath="$PROJECT_DIR$/propel/build.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/build.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/252/build.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/252/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/269/build.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/269/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/307/build.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/307/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/360/build.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/360/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/376/build.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/376/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/654/build.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/regression/654/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tokensources/build.xml" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tokensources/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/categories.tpl" afterPath="$PROJECT_DIR$/templates/categories.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/docs/docbook5/en/stylesheets/xsl/fo-highlight.xsl" afterPath="$PROJECT_DIR$/vendor/phing/phing/docs/docbook5/en/stylesheets/xsl/fo-highlight.xsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/docs/docbook5/en/stylesheets/xsl/html-highlight.xsl" afterPath="$PROJECT_DIR$/vendor/phing/phing/docs/docbook5/en/stylesheets/xsl/html-highlight.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/propel/runtime-conf.xml" afterPath="$PROJECT_DIR$/propel/runtime-conf.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/resources/sample.txt" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/resources/sample.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/etc/str.replace.function.xsl" afterPath="$PROJECT_DIR$/vendor/phing/phing/etc/str.replace.function.xsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tokensources/tokens.ini" afterPath="$PROJECT_DIR$/vendor/phing/phing/test/etc/tokensources/tokens.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.tpl" afterPath="$PROJECT_DIR$/templates/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,153 +28,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="509" selection-end="509" vertical-scroll-proportion="0.16574585" vertical-offset="135" max-vertical-offset="1020">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="categories.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/categories.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="270">
-              <folding>
-                <marker date="1421084284000" expanded="true" signature="135:232" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseAdresse.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseAdresse.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.0" vertical-offset="360" max-vertical-offset="19170">
-              <folding>
-                <marker date="1421080176000" expanded="true" signature="18996:19032" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseCategorie.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseCategorie.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="41" selection-start="2225" selection-end="2246" vertical-scroll-proportion="-5.14" vertical-offset="1108" max-vertical-offset="17580">
-              <folding>
-                <marker date="1421080177000" expanded="true" signature="13454:13492" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lempiredesvis-conf.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/propel/build/conf/lempiredesvis-conf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="69" selection-start="356" selection-end="356" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="780">
-              <folding>
-                <marker date="1421083173000" expanded="true" signature="185:1025" placeholder="..." />
-                <marker date="1421083173000" expanded="true" signature="221:986" placeholder="..." />
-                <marker date="1421083173000" expanded="true" signature="286:979" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="static.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1860">
-              <folding>
-                <marker date="1421079480000" expanded="true" signature="31:3961" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="38:463" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="470:3953" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="495:3944" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="526:548" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="549:671" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="571:606" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="607:660" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="730:1628" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="768:1617" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="853:1602" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="923:1227" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="968:1085" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="1284:1583" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="1659:1681" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="1682:3691" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="1767:1971" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="1788:1809" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="1873:1898" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="1899:1954" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="2056:3188" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="2077:2101" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="2222:2652" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="2247:2274" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="2351:2392" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="2393:2425" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="2455:2496" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="2497:2529" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="2559:2600" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="2601:2633" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="2743:3169" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="2768:2793" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="2868:2909" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="2910:2942" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="2972:3013" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="3014:3046" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="3076:3117" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="3118:3150" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="3274:3679" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="3295:3318" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="3382:3409" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="3410:3562" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="3589:3614" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="3615:3664" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="3721:3743" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="3744:3936" placeholder="..." />
-                <marker date="1421079480000" expanded="true" signature="3820:3925" placeholder="..." />
-                <marker date="1421079480000" expanded="false" signature="3841:3881" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_propel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_propel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="46" selection-start="474" selection-end="474" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="345">
-              <folding>
-                <element signature="e#6#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classmap-lempiredesvis-conf.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/propel/build/conf/classmap-lempiredesvis-conf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1290">
+            <state line="7" column="63" selection-start="186" selection-end="199" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/propel/build.properties">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="49" selection-start="685" selection-end="700" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="420">
+            <state line="53" column="1" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.83870965" vertical-offset="483" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="categoriesclient.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/categoriesclient.tpl">
+      <file leaf-file-name="BasePromotion.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BasePromotion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
-              <folding />
+            <state line="118" column="32" selection-start="3091" selection-end="3103" vertical-scroll-proportion="3.4" vertical-offset="1940" max-vertical-offset="20190">
+              <folding>
+                <marker date="1421080177000" expanded="true" signature="19039:19077" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseApplicationpromotion.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseApplicationpromotion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="995" column="32" selection-start="33216" selection-end="33228" vertical-scroll-proportion="-2.3" vertical-offset="14810" max-vertical-offset="17025">
+              <folding>
+                <marker date="1421080177000" expanded="true" signature="15948:15997" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="22" selection-start="447" selection-end="447" vertical-scroll-proportion="-7.9166665" vertical-offset="5" max-vertical-offset="735">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseArticle.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseArticle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1741" column="44" selection-start="60008" selection-end="60032" vertical-scroll-proportion="-2.9" vertical-offset="25970" max-vertical-offset="38190">
+              <folding>
+                <marker date="1421080177000" expanded="true" signature="25921:25957" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -239,12 +128,15 @@
         <option value="$PROJECT_DIR$/test_propel.php" />
         <option value="$PROJECT_DIR$/propel/build/conf/lempiredesvis-conf.php" />
         <option value="$PROJECT_DIR$/templates/categories.tpl" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templates/index.tpl" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="719" />
@@ -325,6 +217,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,13 +328,18 @@
       <created>1418313583728</created>
       <updated>1418313583728</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Rajout propel build + conf BDD">
+      <created>1421085421936</created>
+      <updated>1421085421936</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="719" extended-state="6" />
+    <frame x="-3" y="23" width="1280" height="719" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -439,12 +350,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -469,7 +379,8 @@
     <MESSAGE value="Rajout jquery via composer" />
     <MESSAGE value="Rajout propel et slim via composer" />
     <MESSAGE value="Rajout slim_client + slim_webservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rajout slim_client + slim_webservice" />
+    <MESSAGE value="Rajout propel build + conf BDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rajout propel build + conf BDD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -556,11 +467,6 @@
         <state line="96" column="11" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.33164558" vertical-offset="1309" max-vertical-offset="52530" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.03916449" vertical-offset="0" max-vertical-offset="383" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="4" selection-start="459" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="330">
@@ -599,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="191" selection-end="674" vertical-scroll-proportion="0.7044199" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
@@ -620,28 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/categoriesclient.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/propel/build.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="49" selection-start="685" selection-end="700" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="420">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/conf/lempiredesvis-conf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="69" selection-start="356" selection-end="356" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="780">
-          <folding>
-            <marker date="1421083173000" expanded="true" signature="185:1025" placeholder="..." />
-            <marker date="1421083173000" expanded="true" signature="221:986" placeholder="..." />
-            <marker date="1421083173000" expanded="true" signature="286:979" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,76 +533,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
-          <folding>
-            <marker date="1421079480000" expanded="true" signature="31:3961" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="38:463" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="470:3953" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="495:3944" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="526:548" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="549:671" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="571:606" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="607:660" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="730:1628" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="768:1617" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="853:1602" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="923:1227" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="968:1085" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="1284:1583" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="1659:1681" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="1682:3691" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="1767:1971" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="1788:1809" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="1873:1898" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="1899:1954" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="2056:3188" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="2077:2101" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="2222:2652" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="2247:2274" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="2351:2392" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="2393:2425" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="2455:2496" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="2497:2529" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="2559:2600" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="2601:2633" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="2743:3169" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="2768:2793" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="2868:2909" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="2910:2942" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="2972:3013" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="3014:3046" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="3076:3117" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="3118:3150" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="3274:3679" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="3295:3318" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="3382:3409" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="3410:3562" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="3589:3614" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="3615:3664" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="3721:3743" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="3744:3936" placeholder="..." />
-            <marker date="1421079480000" expanded="true" signature="3820:3925" placeholder="..." />
-            <marker date="1421079480000" expanded="false" signature="3841:3881" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseAdresse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.0" vertical-offset="360" max-vertical-offset="19170">
           <folding>
-            <marker date="1421080176000" expanded="true" signature="18996:19032" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_propel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="46" selection-start="474" selection-end="474" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="345">
-          <folding>
-            <element signature="e#6#83#0" expanded="true" />
+            <marker date="1421080176000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -730,23 +546,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="41" selection-start="2225" selection-end="2246" vertical-scroll-proportion="-5.14" vertical-offset="1108" max-vertical-offset="17580">
           <folding>
-            <marker date="1421080177000" expanded="true" signature="13454:13492" placeholder="INSERT INTO ..." />
+            <marker date="1421080177000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="76" selection-end="76" vertical-scroll-proportion="0.12465374" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propel/build/conf/lempiredesvis-conf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="69" selection-start="356" selection-end="356" vertical-scroll-proportion="0.4558011" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_propel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="46" selection-start="474" selection-end="474" vertical-scroll-proportion="0.58441556" vertical-offset="0" max-vertical-offset="385">
+          <folding>
+            <element signature="e#6#83#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/categoriesclient.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/categories.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="270">
+        <state line="7" column="63" selection-start="186" selection-end="199" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="447" selection-end="447" vertical-scroll-proportion="-7.9166665" vertical-offset="5" max-vertical-offset="735">
           <folding>
-            <marker date="1421084284000" expanded="true" signature="135:232" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseArticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1741" column="44" selection-start="60008" selection-end="60032" vertical-scroll-proportion="-2.9" vertical-offset="25970" max-vertical-offset="38190">
+          <folding>
+            <marker date="1421080177000" expanded="true" signature="25921:25957" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseApplicationpromotion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="995" column="32" selection-start="33216" selection-end="33228" vertical-scroll-proportion="-2.3" vertical-offset="14810" max-vertical-offset="17025">
+          <folding>
+            <marker date="1421080177000" expanded="true" signature="15948:15997" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BasePromotion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="32" selection-start="3091" selection-end="3103" vertical-scroll-proportion="3.4" vertical-offset="1940" max-vertical-offset="20190">
+          <folding>
+            <marker date="1421080177000" expanded="true" signature="19039:19077" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="509" selection-end="509" vertical-scroll-proportion="0.16574585" vertical-offset="135" max-vertical-offset="1020">
+        <state line="53" column="1" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.83870965" vertical-offset="483" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>

@@ -12,9 +12,6 @@ require("./vendor/smarty/smarty/libs/Smarty.class.php"); // On inclut la classe 
 $smarty = new Smarty();
 
 $categories = CategorieQuery::create()->find();
-
-$smarty->assign(array("nbCategories" => count($categories)));
-
 $tabcategories = array();
 for ($i = 0; $i < count($categories); $i++)
 {
@@ -22,11 +19,44 @@ for ($i = 0; $i < count($categories); $i++)
     $tabcategories[count($tabcategories)] = array($myCategorie->getIdcategorie(), $myCategorie->getLibellecategorie());
 }
 $smarty->assign("Categories" , $tabcategories);
+$smarty->assign(array("nbCategories" => count($categories)));
+
+$articles = ArticleQuery::create()->limit(5)->find();
+$tabArticles = array();
+for ($i = 0; $i < count($articles); $i++)
+{
+    $myArticle = $articles[$i];
+    $tabArticles[count($tabArticles)] = array($myArticle->getIdarticle(), $myArticle->getLibellearticle(), $myArticle->getReferencearticle());
+}
+$smarty->assign("Articles" , $tabArticles);
 
 
+
+$articlesPromotion = ArticleQuery::create()->limit(5)->find();
+$tabArticlesPromotion = array();
+for ($i = 0; $i < count($articlesPromotion); $i++)
+{
+    $myArticlePromotion = $articlesPromotion[$i];
+    $applipromos = $myArticlePromotion->getApplicationpromotions();
+    foreach ($applipromos as $applipromo)
+    {
+        if (!is_null($applipromo->getIdpromo()))
+        {
+            $promo = $applipromo->getPromotion();
+            if( ( $promo->getDatedebut("Y-m-d") < date("Y-m-d") ) && ( $promo->getDatefin("Y-m-d") > date("Y-m-d")) )
+            {
+                $tabArticlesPromotion[count($tabArticlesPromotion)] = array($myArticlePromotion->getIdarticle(), $myArticlePromotion->getLibellearticle(), $myArticlePromotion->getReferencearticle());
+            }
+        }
+    }
+
+
+}
+$smarty->assign("ArticlesPromotion" , $tabArticlesPromotion);
 
 
 // TODO: Récupérer les articles en promo
+/*
 $smarty->assign(array(
     "articlepromo1" => "Clé à pipe 12",
     "articlepromo2" => "Clé anglaise 8",
@@ -40,9 +70,9 @@ $smarty->assign(array(
     "refarticlepromo3" => "tourneviscruciforme8",
     "refarticlepromo4" => "cleapipe13",
 ));
-
+*/
 // TODO: Récupérer les 5 derniers articles enregistré en BDD
-$smarty->assign(array(
+/*$smarty->assign(array(
     "article1" => "Tournevis Torx 5",
     "article2" => "Tournevis plat 8",
     "article3" => "Tournevis Cruciforme 8",
@@ -56,7 +86,7 @@ $smarty->assign(array(
     "refarticle3" => "tourneviscruciforme8",
     "refarticle4" => "cleapipe13",
     "refarticle5" => "cleamolette"
-));
+));*/
 
 $smarty->display("./templates/index.tpl");
 
