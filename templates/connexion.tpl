@@ -5,7 +5,7 @@
     	<label for="login">Identifiant : </label><br /><input type="email" class="form-control input-md" name="login" id="login" required /><br />
     	<label for="mdp">Mot de passe : </label><br /><input type="password" class="form-control input-md" name="mdp" id="mdp" required /><br />
     	<input class="btn btn-primary" type="submit" value="Se connecter" />
-    	<a href="inscription.php" class="btn btn-default">S'inscrire</a>
+    	<a href="index_dispatcher.php?section=user&action=inscription" class="btn btn-default">S'inscrire</a>
     </form>
     {else}
     <h4>TODO: Accès au compte</h4>

@@ -7,12 +7,12 @@ $mdp = htmlspecialchars($_POST['mdp']);
 $client = ClientQuery::create()->findOneByLogin($login);
 
 if($client == NULL){
-	echo "CONNAIS PAS";
+	echo "Le compte ou le mot de passe est erroné";
 	exit;
 }
 
 if($client->GetMDP() != $mdp){
-	echo "MAUVAIS PASS";
+	echo "Le compte ou le mot de passe est erroné";
 	exit;
 }
 //var_dump($client);

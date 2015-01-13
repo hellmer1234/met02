@@ -22,10 +22,15 @@ class Controleurpanier implements ControleurMet
         if (isset($_GET["id_commande"]))
         {
             $id = $_GET["id_commande"];
+            $paniers = PanierQuery::create()->findByIdcommande($id);
+        }
+        else
+        {
+            $paniers = array();
         }
 
 
-        $paniers = PanierQuery::create()->findByIdcommande($id);
+
 
         $tabpaniers = array();
         $total_panier = 0;
