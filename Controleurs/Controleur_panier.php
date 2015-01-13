@@ -28,6 +28,8 @@ class Controleurpanier implements ControleurMet
         $paniers = PanierQuery::create()->findByIdcommande($id);
 
         $tabpaniers = array();
+        $total_panier = 0;
+        $nb_articles = 0;
         foreach ($paniers as $item)
         {
             $id_article = $item->getIdarticle();
@@ -35,11 +37,17 @@ class Controleurpanier implements ControleurMet
             $qte = $item->getQuantite();
             $prixTTC = $article->getPrixht() * (1 +$article->getTauxtva()->getTauxtva());
             $prixTotal = $qte * $prixTTC;
+            $total_panier = $total_panier + $prixTotal;
+            $nb_articles = $nb_articles + $qte;
             $tabpaniers[count($tabpaniers)] = array("qte" => $qte, "id_article" => $id_article,
                 "prix" => $article->getPrixht(), "ref"=> $article->getReferencearticle(),
                 "desc"=> $article->getDescriptionarticle(), "nom"=> $article->getLibellearticle(),
                 "prixTTC" => $prixTTC, "total" => $prixTotal);
         }
+
+        $this->_smarty->assign("panierOK" , 1);
+        $this->_smarty->assign("totalPanier" , $total_panier);
+        $this->_smarty->assign("nbArticles" , $nb_articles);
 
         $this->_smarty->assign("Items" , $tabpaniers);
 
