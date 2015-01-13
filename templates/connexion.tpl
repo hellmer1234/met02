@@ -9,7 +9,7 @@
     </form>
     {else}
     <h4>TODO: Accès au compte</h4>
-        <a href="panier_full.php?id_commande=1">Accéder au panier</a>
+        <a href="index_dispatcher.php?section=panier&id_commande=1">Accéder au panier</a>
     <a href="deconnexion.php" class="btn btn-default">Se déconnecter</a>
     {/if}
     
