@@ -5,11 +5,11 @@
     {if $panierOK eq '1'}
         Prix total : {$totalPanier} € TTC <br />
         Nombre d'articles : {$nbArticles}
-    {else}
+    {elseif $panierOK eq '0'}
 
         <ul>
-            {foreach $ListeMenus as $menu}
-            <li><a href="compte.php?id={$menu.libelle}">{$menu.libelle}</a></li>
+            {foreach $ListeMenus as $Menu}
+            <li><a href="index_dispatcher.php?section=user&action={$Menu.action}&id={$Menu.libelle}">{$Menu.libelle}</a></li>
             {/foreach}
 
         </ul>
