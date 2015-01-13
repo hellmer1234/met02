@@ -1,16 +1,7 @@
 <?php
 
 
-// Inclusion de Propel
-require_once './vendor/propel/propel1/runtime/lib/Propel.php';
-// Initialisation de Propel avec le fichier de configuration
-Propel::init("./propel/build/conf/lempiredesvis-conf.php");
-// Rajout des classes générées dans le include path
-set_include_path("./propel/build/classes/" . PATH_SEPARATOR . get_include_path());
-
-require("./vendor/smarty/smarty/libs/Smarty.class.php"); // On inclut la classe Smarty
-
-$smarty = new Smarty();
+require ("initPage.php");
 
 if (isset($_GET["id_commande"]))
 {

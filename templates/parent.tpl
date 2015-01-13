@@ -30,8 +30,8 @@
                     <button type="submit" class="btn btn-default glyphicon glyphicon-search"> Rechercher...</button>
                 </form>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.php">Accueil</a></li>
-                    <li><a href="catalogue.php">Catalogue</a></li>
+                    <li><a href="index_dispatcher.php">Accueil</a></li>
+                    <li><a href="index_dispatcher.php?section=catalogue">Catalogue</a></li>
                     {if $connected}
                     <li><a href="compte.php">Compte</a></li>
                     {else}

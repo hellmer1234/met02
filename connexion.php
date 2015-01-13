@@ -15,7 +15,7 @@ if($client->GetMDP() != $mdp){
 	echo "MAUVAIS PASS";
 	exit;
 }
-var_dump($client);
+//var_dump($client);
 
 $_SESSION['idclient'] = $client->getIdClient();
 $_SESSION['login'] = $client->getLogin();
