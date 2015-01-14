@@ -33,7 +33,7 @@
                     <li><a href="index.php">Accueil</a></li>
                     <li><a href="index.php?section=catalogue">Catalogue</a></li>
                     {if $connected}
-                    <li><a href="index.php?section=user&action=compte">Compte</a></li>
+                    <li><a href="index.php?section=user&amp;action=compte">Compte</a></li>
                     {else}
                     <li><a href="#">Panier</a></li>
                     {/if}

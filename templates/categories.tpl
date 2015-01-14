@@ -5,7 +5,7 @@
 
     <ul>
         {foreach $Categories as $Categorie}
-        <li><a href="index.php?section=catalogue&categorie={$Categorie.id}">{$Categorie.libelle}</a></li>
+        <li><a href="index.php?section=catalogue&amp;categorie={$Categorie.id}">{$Categorie.libelle}</a></li>
         {/foreach}
 
     </ul>

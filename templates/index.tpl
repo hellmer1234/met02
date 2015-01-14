@@ -10,7 +10,7 @@
     	<h4>Articles en promotion :</h4>
     	<ul>
             {foreach $ArticlesPromotion as $articlepromo}
-                <li><a href="fichearticle.php?article={$articlepromo.id}">{$articlepromo.libelle}</a></li>
+                <li><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$articlepromo.id}">{$articlepromo.libelle}</a></li>
             {/foreach}
         </ul>
 
@@ -22,7 +22,7 @@
     	<h4>Les 5 derniers articles :</h4>
     	<ul>
             {foreach $Articles as $article}
-                <li><a href="fichearticle.php?article={$article.id}">{$article.libelle}</a></li>
+                <li><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$article.id}">{$article.libelle}</a></li>
             {/foreach}
         </ul>
 

@@ -30,7 +30,7 @@
 	{foreach from=$catalogue item=produit}
 	<div class="row catalogue-item">
 		<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-			<p><a href="index.php?section=catalogue&action=viewArticle&article={$produit.id}">{$produit.nom}</a><br />
+			<p><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$produit.id}">{$produit.nom}</a><br />
 			{$produit.desc}</p>
 		</div>
 		<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">

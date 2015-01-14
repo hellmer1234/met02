@@ -28,7 +28,7 @@
         {foreach from=$Items item=produit}
             <div class="row panier-item">
                 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-6">
-                    <p><a href="index.php?section=catalogue&action=viewArticle&article={$produit.id_article}">{$produit.nom}</a><br />
+                    <p><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$produit.id_article}">{$produit.nom}</a><br />
                         {$produit.desc}</p>
                 </div>
                 <div class="col-xs-12 col-sm-5 col-md-5 col-lg-2">
