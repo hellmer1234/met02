@@ -1,6 +1,6 @@
 <?php
 
-require ("initPage.php");
+require("initPage.php");
 
 $recherche = $_POST['recherche'];
 $listeArticlesNom = array();

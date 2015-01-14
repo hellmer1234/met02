@@ -23,7 +23,7 @@
 
         <nav class="navbar navbar-default" role="navigation">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <form class="navbar-form navbar-left" role="search" action="recherche.php" method="POST">
+                <form class="navbar-form navbar-left" role="search" action="index.php?section=catalogue&amp;action=recherche" method="POST">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Rechercher" name="recherche" id="recherche">
                     </div>
