@@ -1,6 +1,6 @@
 <?php
 
-require ("initPage.php");
+require("initPage.php");
 
 $articles = ArticleQuery::create()->limit(5)->find();
 $tabArticles = array();

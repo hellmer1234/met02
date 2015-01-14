@@ -6,7 +6,7 @@
 	<h4>Catalogue</h4>
 
 	<div class="row">
-		<form action="catalogue.php" method="get">
+		<form action="?section=catalogue&amp;action=filtre" method="post">
 			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
 				<label for="categorie">Catégorie</label>
 				<select name="categorie" id="categorie" class="form-control">

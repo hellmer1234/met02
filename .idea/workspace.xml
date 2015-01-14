@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="Modification template parent&#10;+ affichage du menu identique + externalisation du menu dans un initMenu">
+    <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index_old.php" afterPath="$PROJECT_DIR$/old/index_old.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/catalogue.tpl" afterPath="$PROJECT_DIR$/templates/catalogue.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
@@ -25,57 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Controleur_user.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="28" selection-start="435" selection-end="440" vertical-scroll-proportion="-0.016304348" vertical-offset="351" max-vertical-offset="1515">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initMenu.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/initMenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="37" selection-start="287" selection-end="287" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commande.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/commande.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="255" selection-end="324" vertical-scroll-proportion="-6.0" vertical-offset="96" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controleur_panier.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="31" selection-start="1586" selection-end="1586" vertical-scroll-proportion="-33.75" vertical-offset="0" max-vertical-offset="1080">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="panier.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/panier.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="panier_full.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/panier_full.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="29" selection-start="1734" selection-end="1744" vertical-scroll-proportion="-6.0833335" vertical-offset="709" max-vertical-offset="1095">
+            <state line="30" column="87" selection-start="964" selection-end="964" vertical-scroll-proportion="-9.208333" vertical-offset="229" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
@@ -90,19 +45,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controleur_catalogue.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
+      <file leaf-file-name="parent.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="8" selection-start="2401" selection-end="2451" vertical-scroll-proportion="-5.4583335" vertical-offset="874" max-vertical-offset="1185">
+            <state line="35" column="60" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-14.375" vertical-offset="180" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parent.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
+      <file leaf-file-name="recherche.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/recherche.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="37" selection-start="2295" selection-end="2295" vertical-scroll-proportion="-4.75" vertical-offset="681" max-vertical-offset="1395">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1005">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controleur_index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="70" selection-start="804" selection-end="845" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controleur_catalogue.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="16" selection-start="1604" selection-end="1604" vertical-scroll-proportion="-3.75" vertical-offset="690" max-vertical-offset="1590">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controleur_panier.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="31" selection-start="1586" selection-end="1586" vertical-scroll-proportion="-4.0833335" vertical-offset="712" max-vertical-offset="1080">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recherche.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recherche.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -111,7 +111,7 @@
       <file leaf-file-name="catalogue.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="91" selection-start="1011" selection-end="1013" vertical-scroll-proportion="-3.0833333" vertical-offset="406" max-vertical-offset="915">
+            <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125" vertical-offset="45" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -151,7 +151,6 @@
         <option value="$PROJECT_DIR$/test_propel.php" />
         <option value="$PROJECT_DIR$/propel/build/conf/lempiredesvis-conf.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/templates/index.tpl" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/panier_full.php" />
         <option value="$PROJECT_DIR$/Controleurs/controlleur.php" />
@@ -161,19 +160,20 @@
         <option value="$PROJECT_DIR$/Controleurs/Controleur_Catalogue.php" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_index.php" />
         <option value="$PROJECT_DIR$/index_dispatcher.php" />
-        <option value="$PROJECT_DIR$/Controleurs/Controleur_catalogue.php" />
-        <option value="$PROJECT_DIR$/templates/categories.tpl" />
         <option value="$PROJECT_DIR$/connexion.php" />
-        <option value="$PROJECT_DIR$/templates/connexion.tpl" />
         <option value="$PROJECT_DIR$/templates/panier.tpl" />
         <option value="$PROJECT_DIR$/templates/paramcompte.tpl" />
-        <option value="$PROJECT_DIR$/templates/catalogue.tpl" />
         <option value="$PROJECT_DIR$/initMenu.php" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_user.php" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
-        <option value="$PROJECT_DIR$/templates/parent.tpl" />
         <option value="$PROJECT_DIR$/templates/commande.tpl" />
+        <option value="$PROJECT_DIR$/templates/parent.tpl" />
+        <option value="$PROJECT_DIR$/templates/categories.tpl" />
+        <option value="$PROJECT_DIR$/templates/connexion.tpl" />
         <option value="$PROJECT_DIR$/templates/panier_full.tpl" />
+        <option value="$PROJECT_DIR$/templates/index.tpl" />
+        <option value="$PROJECT_DIR$/templates/catalogue.tpl" />
+        <option value="$PROJECT_DIR$/Controleurs/Controleur_catalogue.php" />
       </list>
     </option>
   </component>
@@ -272,20 +272,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Controleurs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -308,6 +294,7 @@
       <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/old" />
       <recent name="$PROJECT_DIR$/resources/js" />
     </key>
   </component>
@@ -435,12 +422,16 @@
       <created>1421228869116</created>
       <updated>1421228869116</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Modification des &amp; en &amp;amp;">
+      <created>1421232445478</created>
+      <updated>1421232445478</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -450,7 +441,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32366413" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3908397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32366413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32366413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -494,7 +485,8 @@
     <MESSAGE value="Remplacement index par index_dispatcher&#10;suppression des pages superflues" />
     <MESSAGE value="MOdification de l'affichage de la page panier (affichage du menu)" />
     <MESSAGE value="Modification template parent&#10;+ affichage du menu identique + externalisation du menu dans un initMenu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification template parent&#10;+ affichage du menu identique + externalisation du menu dans un initMenu" />
+    <MESSAGE value="Modification des &amp; en &amp;amp;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification des &amp; en &amp;amp;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -508,11 +500,6 @@
     <entry file="file://$PROJECT_DIR$/propel/runtime-conf.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lempiredesvis_populated.sql">
@@ -570,11 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BasePanierQuery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="34" selection-start="2382" selection-end="2399" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="8100">
@@ -600,23 +582,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="451" selection-end="451" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_old.php">
+    <entry file="file://$PROJECT_DIR$/old/index_old.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="1248" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/categoriesclient.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386">
           <folding />
         </state>
       </provider>
@@ -677,119 +645,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="188" selection-end="188" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/initPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="-7.2916665" vertical-offset="170" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/compte.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.29166666" vertical-offset="7" max-vertical-offset="420">
-          <folding>
-            <marker date="1421216269000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421216269000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/inscription.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="45.0" vertical-offset="1080" max-vertical-offset="2220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/articles.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.5" vertical-offset="516" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/categories.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="164" selection-end="164" vertical-scroll-proportion="-3.9583333" vertical-offset="10" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/connexion.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="48" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/panier.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/paramcompte.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="328" selection-end="328" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="91" selection-start="1011" selection-end="1013" vertical-scroll-proportion="-3.0833333" vertical-offset="406" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="31" selection-start="1586" selection-end="1586" vertical-scroll-proportion="-33.75" vertical-offset="0" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="8" selection-start="2401" selection-end="2451" vertical-scroll-proportion="-5.4583335" vertical-offset="874" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="37" selection-start="2295" selection-end="2295" vertical-scroll-proportion="-4.75" vertical-offset="681" max-vertical-offset="1395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/commande.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="255" selection-end="324" vertical-scroll-proportion="-6.0" vertical-offset="96" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/panier_full.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="29" selection-start="1734" selection-end="1744" vertical-scroll-proportion="-6.0833335" vertical-offset="709" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
@@ -803,7 +661,173 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="28" selection-start="435" selection-end="440" vertical-scroll-proportion="-0.016304348" vertical-offset="351" max-vertical-offset="1515">
+        <state line="23" column="28" selection-start="435" selection-end="440" vertical-scroll-proportion="0.25" vertical-offset="351" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/articles.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/categories.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="53" selection-start="191" selection-end="191" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/categoriesclient.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/commande.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="255" selection-end="324" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/compte.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.625" vertical-offset="375" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/connexion.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="45" selection-start="99" selection-end="99" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.916666" vertical-offset="502" max-vertical-offset="1080">
+          <folding>
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="92" selection-start="414" selection-end="414" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inscription.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/panier.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/panier_full.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="87" selection-start="964" selection-end="964" vertical-scroll-proportion="-9.208333" vertical-offset="229" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/paramcompte.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9" selection-start="328" selection-end="328" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="60" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-14.375" vertical-offset="180" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recherche.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="70" selection-start="804" selection-end="845" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125" vertical-offset="45" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="16" selection-start="1604" selection-end="1604" vertical-scroll-proportion="-3.75" vertical-offset="690" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="31" selection-start="1586" selection-end="1586" vertical-scroll-proportion="-4.0833335" vertical-offset="712" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recherche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
