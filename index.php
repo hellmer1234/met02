@@ -1,36 +1,43 @@
 <?php
 
-require ("initPage.php");
+require_once ("initPage.php");
 
-$articles = ArticleQuery::create()->limit(5)->find();
-$tabArticles = array();
-foreach ($articles as $myArticle)
+ob_start();
+if(isset($_GET['section']))
+{    $section=$_GET['section']; }
+else
+{    $section = 'index';}
+
+$controleur_file = dirname(__FILE__).'/Controleurs/Controleur_'.$section.'.php';
+
+//echo $controleur_file;
+
+if(is_file($controleur_file))
 {
-    $tabArticles[count($tabArticles)] = array("id" => $myArticle->getIdarticle(), "libelle" => $myArticle->getLibellearticle(), "ref" => $myArticle->getReferencearticle());
+    include $controleur_file;
+    $controleur='Controleur'.$section;
 }
-$smarty->assign("Articles" , $tabArticles);
-
-$articlesPromotion = ArticleQuery::create()->limit(5)->find();
-$tabArticlesPromotion = array();
-foreach ($articlesPromotion as $myArticlePromotion)
+if(class_exists($controleur))
 {
-    $applipromos = $myArticlePromotion->getApplicationpromotions();
-    foreach ($applipromos as $applipromo)
-    {
-        if (!is_null($applipromo->getIdpromo()))
-        {
-            $promo = $applipromo->getPromotion();
-            if( ( $promo->getDatedebut("Y-m-d") < date("Y-m-d") ) && ( $promo->getDatefin("Y-m-d") > date("Y-m-d")) )
-            {
-                $tabArticlesPromotion[count($tabArticlesPromotion)] = array("id" => $myArticlePromotion->getIdarticle(), "libelle" => $myArticlePromotion->getLibellearticle(), "ref" => $myArticlePromotion->getReferencearticle());
-            }
+    $c=new $controleur($smarty);
+    if(isset($_GET['action'])){
+        $action=$_GET['action'];
+        if(method_exists($c,$action)){
+            $c->$action();
         }
+    }else{
+        $c->defaultView();
     }
-
-
 }
-$smarty->assign("ArticlesPromotion" , $tabArticlesPromotion);
+else
+{
+    include_once dirname(__FILE__) . '/Controleurs/Controleur_index.php';
+    $controleur = 'ControleurIndex';
+    $c = new $controleur($smarty);
+    $c->defaultView();
+}
+echo ob_get_clean();
 
-$smarty->display("./templates/index.tpl");
+
 
 ?>

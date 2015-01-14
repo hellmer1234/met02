@@ -9,7 +9,7 @@
 
         <ul>
             {foreach $ListeMenus as $Menu}
-            <li><a href="index_dispatcher.php?section=user&amp;action={$Menu.action}">{$Menu.libelle}</a></li>
+            <li><a href="index.php?section=user&amp;action={$Menu.action}">{$Menu.libelle}</a></li>
             {/foreach}
 
         </ul>
