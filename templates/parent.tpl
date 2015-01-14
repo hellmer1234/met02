@@ -51,6 +51,10 @@
                     {$smarty.block.child}
                 {/block}
 
+                {block name="left_bas"}
+                    {$smarty.block.child}
+                {/block}
+
             </div>
 
             {block name="content"}

@@ -23,8 +23,8 @@ class Controleuruser implements ControleurMet
 
     public function compte()
     {
-        $tabMenu = array();
-        $tabMenu[count($tabMenu)] = array("libelle" => "Mon Compte" , "action" => "compte");
+        include "initMenu.php";
+
         $client = ClientQuery::create()->findPk($_SESSION['idclient']);
         $adresse = AdresseQuery::create()->filterByTypeAdresse("Facturation")->findOneByIdclient($_SESSION['idclient']);
         $this->_smarty->assign("ListeMenus", $tabMenu);
@@ -43,6 +43,14 @@ class Controleuruser implements ControleurMet
         $this->_template = "./templates/compte.tpl";
         $this->_smarty->display($this->_template);
 
+    }
+
+    public function commande()
+    {
+       include "initMenu.php";
+
+        $this->_template = "./templates/commande.tpl";
+        $this->_smarty->display($this->_template);
     }
 
     public function inscription()
