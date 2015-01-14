@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./resources/jquery/css/jquery.min.css">
         <link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="./resources/css/web.css">
+
     </head>
     <body>
 

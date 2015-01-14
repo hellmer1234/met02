@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="Rajout de la recherche dans le dispatcher">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controleurs/Controleur_panier.php" afterPath="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/panier.tpl" afterPath="$PROJECT_DIR$/templates/panier.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim_webservice.php" afterPath="$PROJECT_DIR$/slim_webservice.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controleurs/Controleur_ajax.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/ajax.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/parent.tpl" afterPath="$PROJECT_DIR$/templates/parent.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="e392970f-07f2-40e8-a591-b3c976527989" name="Failed commit: Default" comment="Rajout de la recherche dans le dispatcher" />
@@ -29,76 +29,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="panier_full.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/panier_full.tpl">
+      <file leaf-file-name="parent.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="87" selection-start="964" selection-end="964" vertical-scroll-proportion="11.833333" vertical-offset="734" max-vertical-offset="1095">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controleur_Catalogue.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_Catalogue.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="57" selection-start="1839" selection-end="1841" vertical-scroll-proportion="-7.875" vertical-offset="651" max-vertical-offset="2295">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="panier.tpl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/panier.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.20408164" vertical-offset="0" max-vertical-offset="588">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connexion.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/connexion.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="9" selection-start="845" selection-end="845" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controleur_panier.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="45" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-6.375" vertical-offset="1062" max-vertical-offset="2100">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandeQuery.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/CommandeQuery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Commande.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/Commande.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseCommande.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseCommande.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="39" selection-start="3441" selection-end="3460" vertical-scroll-proportion="-2.22" vertical-offset="2079" max-vertical-offset="19860">
+            <state line="5" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="-1.25" vertical-offset="45" max-vertical-offset="1410">
               <folding>
-                <marker date="1421080176000" expanded="true" signature="15335:15372" placeholder="INSERT INTO ..." />
+                <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lempiredesvis-conf.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/propel/build/conf/lempiredesvis-conf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="780">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,11 +63,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slim_client.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slim_client.php">
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="10" selection-start="7" selection-end="605" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="initPage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="-8.375" vertical-offset="144" max-vertical-offset="525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/ajax.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controleur_index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="70" selection-start="804" selection-end="845" vertical-scroll-proportion="-12.666667" vertical-offset="146" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controleur_ajax.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="8" selection-start="414" selection-end="414" vertical-scroll-proportion="0.5956873" vertical-offset="124" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/articles.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="28" selection-start="188" selection-end="202" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="840">
+              <folding>
+                <element signature="e#117#149#0" expanded="true" />
+                <element signature="e#370#405#0" expanded="true" />
+                <element signature="e#458#507#0" expanded="true" />
+                <element signature="e#546#595#0" expanded="true" />
+                <element signature="e#634#683#0" expanded="true" />
+                <element signature="e#811#844#0" expanded="true" />
+                <element signature="e#895#944#0" expanded="true" />
+                <element signature="e#983#1032#0" expanded="true" />
+                <element signature="e#1071#1120#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,11 +179,13 @@
         <option value="$PROJECT_DIR$/templates/panier_full.tpl" />
         <option value="$PROJECT_DIR$/templates/index.tpl" />
         <option value="$PROJECT_DIR$/templates/catalogue.tpl" />
-        <option value="$PROJECT_DIR$/templates/parent.tpl" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_catalogue.php" />
         <option value="$PROJECT_DIR$/slim_webservice.php" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
         <option value="$PROJECT_DIR$/templates/panier.tpl" />
+        <option value="$PROJECT_DIR$/templates/parent.tpl" />
+        <option value="$PROJECT_DIR$/templates/ajax.tpl" />
+        <option value="$PROJECT_DIR$/Controleurs/Controleur_ajax.php" />
       </list>
     </option>
   </component>
@@ -185,7 +193,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="732" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -290,108 +298,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="propel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="propel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="propel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lempiredesvis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="propel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lempiredesvis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="om" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="old" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Controleurs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -411,6 +317,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Controleurs" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -570,7 +477,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="729" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -578,10 +485,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32277527" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3242424" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3908397" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -593,27 +500,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2820122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32277527" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3908397" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32277527" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -655,75 +541,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/propel/runtime-conf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lempiredesvis_populated.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="49" selection-start="685" selection-end="700" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/conf/classmap-lempiredesvis-conf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseAdresse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.0" vertical-offset="360" max-vertical-offset="19170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseCategorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="41" selection-start="2225" selection-end="2246" vertical-scroll-proportion="-5.14" vertical-offset="1108" max-vertical-offset="17580" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="76" selection-end="76" vertical-scroll-proportion="0.12465374" vertical-offset="0" max-vertical-offset="361" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/conf/lempiredesvis-conf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="69" selection-start="356" selection-end="356" vertical-scroll-proportion="0.4558011" vertical-offset="0" max-vertical-offset="780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseApplicationpromotion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="995" column="32" selection-start="33216" selection-end="33228" vertical-scroll-proportion="-2.3" vertical-offset="14810" max-vertical-offset="17025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BasePromotion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="32" selection-start="3091" selection-end="3103" vertical-scroll-proportion="3.4" vertical-offset="1940" max-vertical-offset="20190" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BasePanierQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="34" selection-start="2382" selection-end="2399" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="8100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BasePanier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="643" column="41" selection-start="20094" selection-end="20105" vertical-scroll-proportion="0.0" vertical-offset="9538" max-vertical-offset="16185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseArticle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1741" column="44" selection-start="60008" selection-end="60032" vertical-scroll-proportion="0.0" vertical-offset="25970" max-vertical-offset="38190" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old/index_old.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="1248" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
@@ -773,26 +590,11 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-10.626" vertical-offset="5313" max-vertical-offset="9555" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/initPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="-7.2916665" vertical-offset="170" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/initMenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="287" selection-end="287" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="28" selection-start="435" selection-end="440" vertical-scroll-proportion="0.25" vertical-offset="351" max-vertical-offset="1515">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/articles.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/categories.tpl">
@@ -861,23 +663,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="70" selection-start="804" selection-end="845" vertical-scroll-proportion="0.7936508" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/recherche.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="124" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
@@ -899,13 +687,6 @@
     <entry file="file://$PROJECT_DIR$/slim_client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="10" selection-start="7" selection-end="605" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim_webservice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="57" selection-start="320" selection-end="320" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
@@ -942,7 +723,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="146" column="39" selection-start="3441" selection-end="3460" vertical-scroll-proportion="-2.22" vertical-offset="2079" max-vertical-offset="19860">
           <folding>
-            <marker date="1421080176000" expanded="true" signature="15335:15372" placeholder="INSERT INTO ..." />
+            <marker date="1421080176000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -963,7 +744,164 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/panier.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.20408164" vertical-offset="0" max-vertical-offset="588">
+        <state line="8" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lempiredesvis_populated.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="86.96" vertical-offset="4348" max-vertical-offset="4680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initMenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="287" selection-end="287" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/valid_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/require.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="30615">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/require-built.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168510">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/components/jquery/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="-1.25" vertical-offset="45" max-vertical-offset="1410">
+          <folding>
+            <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propel/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propel/runtime-conf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propel/build/conf/lempiredesvis-conf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slim_webservice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="57" selection-start="320" selection-end="320" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="-8.375" vertical-offset="144" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/articles.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="28" selection-start="188" selection-end="202" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="840">
+          <folding>
+            <element signature="e#117#149#0" expanded="true" />
+            <element signature="e#370#405#0" expanded="true" />
+            <element signature="e#458#507#0" expanded="true" />
+            <element signature="e#546#595#0" expanded="true" />
+            <element signature="e#634#683#0" expanded="true" />
+            <element signature="e#811#844#0" expanded="true" />
+            <element signature="e#895#944#0" expanded="true" />
+            <element signature="e#983#1032#0" expanded="true" />
+            <element signature="e#1071#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ajax.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="70" selection-start="804" selection-end="845" vertical-scroll-proportion="-12.666667" vertical-offset="146" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="8" selection-start="414" selection-end="414" vertical-scroll-proportion="0.5956873" vertical-offset="124" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
