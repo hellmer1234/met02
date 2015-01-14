@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/catalogue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categorie.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/compte.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connexion.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deconnexion.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fichearticle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inscription.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/panier_full.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index_old.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index_dispatcher.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/panier.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controleurs/Controleur_panier.php" afterPath="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controleurs/Controleur_user.php" afterPath="$PROJECT_DIR$/Controleurs/Controleur_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Environment.php" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Environment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/slim/slim/tests/EnvironmentTest.php" afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/EnvironmentTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/MethodOverrideTest.php" afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/MethodOverrideTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/PrettyExceptionsTest.php" afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/PrettyExceptionsTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/slim/slim/tests/Http/RequestTest.php" afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Http/RequestTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/SessionCookieTest.php" afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/SessionCookieTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/catalogue.tpl" afterPath="$PROJECT_DIR$/templates/catalogue.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/categories.tpl" afterPath="$PROJECT_DIR$/templates/categories.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/connexion.tpl" afterPath="$PROJECT_DIR$/templates/connexion.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/slim/slim/index.php" afterPath="$PROJECT_DIR$/vendor/slim/slim/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/jquery/jquery-built.js" afterPath="$PROJECT_DIR$/components/jquery/jquery-built.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/jquery/jquery.js" afterPath="$PROJECT_DIR$/components/jquery/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/components/jquery/jquery.js" afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/panier_full.tpl" afterPath="$PROJECT_DIR$/templates/panier_full.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/paramcompte.tpl" afterPath="$PROJECT_DIR$/templates/paramcompte.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/parent.tpl" afterPath="$PROJECT_DIR$/templates/parent.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/require-built.js" afterPath="$PROJECT_DIR$/components/require-built.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
@@ -53,11 +30,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Controleur_user.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Controleur_user.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="31" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.13858695" vertical-offset="729" max-vertical-offset="1380">
+            <state line="29" column="55" selection-start="769" selection-end="816" vertical-scroll-proportion="-3.125" vertical-offset="360" max-vertical-offset="1395">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controleur_panier.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="0" selection-start="1732" selection-end="1732" vertical-scroll-proportion="0.625" vertical-offset="625" max-vertical-offset="1140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panier.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/panier.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,10 +77,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="panier_full.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/panier_full.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="36" selection-start="1643" selection-end="1643" vertical-scroll-proportion="-8.083333" vertical-offset="601" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="paramcompte.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/paramcompte.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="302" selection-end="302" vertical-scroll-proportion="-3.25" vertical-offset="87" max-vertical-offset="360">
+            <state line="16" column="9" selection-start="328" selection-end="328" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -102,15 +108,6 @@
         <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="67" column="8" selection-start="2401" selection-end="2451" vertical-scroll-proportion="-8.458333" vertical-offset="802" max-vertical-offset="1185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/articles.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.5" vertical-offset="516" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -161,7 +158,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/index.tpl" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/templates/panier_full.tpl" />
         <option value="$PROJECT_DIR$/panier_full.php" />
         <option value="$PROJECT_DIR$/Controleurs/controlleur.php" />
         <option value="$PROJECT_DIR$/Controleurs/controleur.php" />
@@ -171,14 +167,16 @@
         <option value="$PROJECT_DIR$/Controleurs/Controleur_index.php" />
         <option value="$PROJECT_DIR$/index_dispatcher.php" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_catalogue.php" />
-        <option value="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
         <option value="$PROJECT_DIR$/templates/catalogue.tpl" />
         <option value="$PROJECT_DIR$/templates/categories.tpl" />
-        <option value="$PROJECT_DIR$/templates/paramcompte.tpl" />
         <option value="$PROJECT_DIR$/templates/parent.tpl" />
         <option value="$PROJECT_DIR$/connexion.php" />
-        <option value="$PROJECT_DIR$/Controleurs/Controleur_user.php" />
         <option value="$PROJECT_DIR$/templates/connexion.tpl" />
+        <option value="$PROJECT_DIR$/templates/panier.tpl" />
+        <option value="$PROJECT_DIR$/templates/paramcompte.tpl" />
+        <option value="$PROJECT_DIR$/templates/panier_full.tpl" />
+        <option value="$PROJECT_DIR$/Controleurs/Controleur_user.php" />
+        <option value="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
       </list>
     </option>
   </component>
@@ -186,7 +184,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="725" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -425,11 +423,15 @@
       <created>1421186890219</created>
       <updated>1421186890219</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Remplacement index par index_dispatcher&#10;suppression des pages superflues">
+      <created>1421221120313</created>
+      <updated>1421221120313</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -437,10 +439,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2820122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3246951" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32366413" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3917683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3246951" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32366413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -481,7 +483,9 @@
     <MESSAGE value="Petite modif panier" />
     <MESSAGE value="Modification de l'affichage des fiches articles &#10;--&gt; passage par le controleur" />
     <MESSAGE value="Bugfix affichage compte suite connexion + passage inscription par dispatcher + compte par dispatcher" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bugfix affichage compte suite connexion + passage inscription par dispatcher + compte par dispatcher" />
+    <MESSAGE value="Remplacement index par index_dispatcher&#10;suppression des pages superflues" />
+    <MESSAGE value="MOdification de l'affichage de la page panier (affichage du menu)" />
+    <option name="LAST_COMMIT_MESSAGE" value="MOdification de l'affichage de la page panier (affichage du menu)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -671,20 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/panier_full.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="42" selection-start="1649" selection-end="1649" vertical-scroll-proportion="-5.9583335" vertical-offset="652" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="47" selection-start="1514" selection-end="1553" vertical-scroll-proportion="-12.208333" vertical-offset="487" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="720">
@@ -737,23 +727,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/paramcompte.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="302" selection-end="302" vertical-scroll-proportion="-3.25" vertical-offset="87" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="38" selection-start="1653" selection-end="1653" vertical-scroll-proportion="-5.4583335" vertical-offset="394" max-vertical-offset="1335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="8" selection-start="2401" selection-end="2451" vertical-scroll-proportion="-8.458333" vertical-offset="802" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
@@ -765,9 +741,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/panier.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/paramcompte.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9" selection-start="328" selection-end="328" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/panier_full.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="36" selection-start="1643" selection-end="1643" vertical-scroll-proportion="-8.083333" vertical-offset="601" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="8" selection-start="2401" selection-end="2451" vertical-scroll-proportion="-8.458333" vertical-offset="802" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="31" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.13858695" vertical-offset="729" max-vertical-offset="1380">
+        <state line="29" column="55" selection-start="769" selection-end="816" vertical-scroll-proportion="-3.125" vertical-offset="360" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1732" selection-end="1732" vertical-scroll-proportion="0.625" vertical-offset="625" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>

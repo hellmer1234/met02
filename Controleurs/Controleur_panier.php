@@ -51,6 +51,14 @@ class Controleurpanier implements ControleurMet
         }
 
         $this->_smarty->assign("panierOK" , 1);
+
+        $tabMenu = array();
+        $tabMenu[count($tabMenu)] = array("libelle" => "Mon Compte" , "action" => "compte");
+        $this->_smarty->assign("ListeMenus", $tabMenu);
+
+        $this->_smarty->assign("menuOK" , 1);
+
+
         $this->_smarty->assign("totalPanier" , $total_panier);
         $this->_smarty->assign("nbArticles" , $nb_articles);
 

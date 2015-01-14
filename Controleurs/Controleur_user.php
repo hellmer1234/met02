@@ -39,6 +39,7 @@ class Controleuruser implements ControleurMet
         );
         $this->_smarty->assign("Compte", $compte);
         $this->_smarty->assign("panierOK" , 0);
+        $this->_smarty->assign("menuOK" , 1);
         $this->_template = "./templates/compte.tpl";
         $this->_smarty->display($this->_template);
 

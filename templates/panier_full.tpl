@@ -51,11 +51,11 @@
 {/block}
 
 {block name="left"}
-    <!--{include file="categories.tpl"}-->
+    {include file="paramcompte.tpl"}
 {/block}
 
 {block name="right_haut"}
-    {include file="paramcompte.tpl"}
+    {include file="panier.tpl"}
 {/block}
 
 {block name="right_bas"}
