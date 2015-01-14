@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/recherche.php" afterPath="$PROJECT_DIR$/old/recherche.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/parent.tpl" afterPath="$PROJECT_DIR$/templates/parent.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
@@ -63,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controleur_catalogue.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Controleur_catalogue.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="22" selection-start="4812" selection-end="4812" vertical-scroll-proportion="-33.333332" vertical-offset="940" max-vertical-offset="2280">
+            <state line="116" column="22" selection-start="4812" selection-end="4812" vertical-scroll-proportion="-0.52112675" vertical-offset="1925" max-vertical-offset="2280">
               <folding />
             </state>
           </provider>
@@ -99,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalogue.tpl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="catalogue.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="0.2112676" vertical-offset="45" max-vertical-offset="915">
+            <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125" vertical-offset="45" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -435,7 +433,11 @@
       <created>1421244435315</created>
       <updated>1421244435315</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Rajout de la recherche dans le dispatcher">
+      <created>1421244786812</created>
+      <updated>1421244786812</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -453,7 +455,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32366413" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -496,7 +498,8 @@
     <MESSAGE value="Modification template parent&#10;+ affichage du menu identique + externalisation du menu dans un initMenu" />
     <MESSAGE value="Modification des &amp; en &amp;amp;" />
     <MESSAGE value="Suppression du old et fonctionnement du filtre en mode dispatcher pour le catalogue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Suppression du old et fonctionnement du filtre en mode dispatcher pour le catalogue" />
+    <MESSAGE value="Rajout de la recherche dans le dispatcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rajout de la recherche dans le dispatcher" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -821,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="22" selection-start="4812" selection-end="4812" vertical-scroll-proportion="-33.333332" vertical-offset="940" max-vertical-offset="2280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="124" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-8.125" vertical-offset="180" max-vertical-offset="1395">
@@ -837,7 +833,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="0.2112676" vertical-offset="45" max-vertical-offset="915">
+        <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125" vertical-offset="45" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="22" selection-start="4812" selection-end="4812" vertical-scroll-proportion="-0.52112675" vertical-offset="1925" max-vertical-offset="2280">
           <folding />
         </state>
       </provider>
