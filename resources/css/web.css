@@ -45,3 +45,15 @@ th, td {
 .infosAvis {
 	margin-bottom: 20px;
 }
+
+#listeCommandes > div,
+#listeAdresses > div{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#listeCommandes div.row:last-child,
+#listeAdresses  div.row:last-child{
+	border-bottom: 1px solid black;
+}

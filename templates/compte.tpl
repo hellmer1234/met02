@@ -34,7 +34,7 @@
     		<div class="row">
     			<label class="col-md-4 control-label" for="newpasswordinput_saisie">Nouveau mot de passe</label>
     			<div class="col-md-8">
-    				<input id="newpasswordinput_saisie" name="newpasswordinput_saisie" type="password" placeholder="" class="form-control input-md" required>
+    				<input id="newpasswordinput_saisie" name="newpasswordinput_saisie" type="password" placeholder="" class="form-control input-md">
 
     			</div>
     		</div>
@@ -42,7 +42,7 @@
     		<div class="row">
     			<label class="col-md-4 control-label" for="passwordinput_confirm">Confirmer le mot de passe</label>
     			<div class="col-md-8">
-    				<input id="passwordinput_confirm" name="passwordinput_confirm" type="password" placeholder="confirmation" class="form-control input-md" required>
+    				<input id="passwordinput_confirm" name="passwordinput_confirm" type="password" placeholder="confirmation" class="form-control input-md">
 
     			</div>
     		</div>
