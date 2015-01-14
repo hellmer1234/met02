@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="">
+    <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="Rajout de la recherche dans le dispatcher">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="e392970f-07f2-40e8-a591-b3c976527989" name="Failed commit: Default" comment="Rajout de la recherche dans le dispatcher" />
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,46 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="panier_full.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/panier_full.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="87" selection-start="964" selection-end="964" vertical-scroll-proportion="-9.208333" vertical-offset="229" max-vertical-offset="1095">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paramcompte.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/paramcompte.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="328" selection-end="328" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parent.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="124" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-8.125" vertical-offset="180" max-vertical-offset="1395">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recherche.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/recherche.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1005">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Controleur_catalogue.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="40" selection-start="191" selection-end="191" vertical-scroll-proportion="0.3802817" vertical-offset="0" max-vertical-offset="2280">
+            <state line="146" column="30" selection-start="6035" selection-end="6035" vertical-scroll-proportion="4.4375" vertical-offset="486" max-vertical-offset="2295">
               <folding />
             </state>
           </provider>
@@ -73,16 +38,7 @@
       <file leaf-file-name="Controleur_panier.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="31" selection-start="1586" selection-end="1586" vertical-scroll-proportion="-4.0833335" vertical-offset="712" max-vertical-offset="1080">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recherche.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old/recherche.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="46" selection-start="33" selection-end="2094" vertical-scroll-proportion="-22.083334" vertical-offset="145" max-vertical-offset="795">
+            <state line="65" column="0" selection-start="1828" selection-end="1828" vertical-scroll-proportion="-40.625" vertical-offset="0" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -91,16 +47,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalogue.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125" vertical-offset="45" max-vertical-offset="915">
+            <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -161,8 +108,8 @@
         <option value="$PROJECT_DIR$/templates/panier_full.tpl" />
         <option value="$PROJECT_DIR$/templates/index.tpl" />
         <option value="$PROJECT_DIR$/templates/catalogue.tpl" />
-        <option value="$PROJECT_DIR$/Controleurs/Controleur_catalogue.php" />
         <option value="$PROJECT_DIR$/templates/parent.tpl" />
+        <option value="$PROJECT_DIR$/Controleurs/Controleur_catalogue.php" />
       </list>
     </option>
   </component>
@@ -170,7 +117,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -445,28 +392,32 @@
       <created>1421244861190</created>
       <updated>1421244861190</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Rajout de la recherche dans le dispatcher">
+      <created>1421244912860</created>
+      <updated>1421244912860</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32277527" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2820122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32366413" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3908397" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32366413" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32277527" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3908397" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2820122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -513,6 +464,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="31" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/recherche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="46" selection-start="33" selection-end="2094" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/propel/schema.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.9061663" vertical-offset="1457" max-vertical-offset="1830" />
@@ -525,9 +504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lempiredesvis_populated.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4680">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/propel/build.properties">
@@ -542,16 +519,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseAdresse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.0" vertical-offset="360" max-vertical-offset="19170">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.0" vertical-offset="360" max-vertical-offset="19170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseCategorie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="41" selection-start="2225" selection-end="2246" vertical-scroll-proportion="-5.14" vertical-offset="1108" max-vertical-offset="17580">
-          <folding />
-        </state>
+        <state line="91" column="41" selection-start="2225" selection-end="2246" vertical-scroll-proportion="-5.14" vertical-offset="1108" max-vertical-offset="17580" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -566,41 +539,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseApplicationpromotion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="995" column="32" selection-start="33216" selection-end="33228" vertical-scroll-proportion="-2.3" vertical-offset="14810" max-vertical-offset="17025">
-          <folding />
-        </state>
+        <state line="995" column="32" selection-start="33216" selection-end="33228" vertical-scroll-proportion="-2.3" vertical-offset="14810" max-vertical-offset="17025" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BasePromotion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="32" selection-start="3091" selection-end="3103" vertical-scroll-proportion="3.4" vertical-offset="1940" max-vertical-offset="20190">
-          <folding />
-        </state>
+        <state line="118" column="32" selection-start="3091" selection-end="3103" vertical-scroll-proportion="3.4" vertical-offset="1940" max-vertical-offset="20190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BasePanierQuery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="34" selection-start="2382" selection-end="2399" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="8100">
-          <folding>
-            <marker date="1421080177000" expanded="true" signature="-1:-1" placeholder="SELECT idart..panier..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BasePanier.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="643" column="41" selection-start="20094" selection-end="20105" vertical-scroll-proportion="0.0" vertical-offset="9538" max-vertical-offset="16185">
-          <folding>
-            <marker date="1421080177000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/propel/build/classes/lempiredesvis/om/BaseArticle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1741" column="44" selection-start="60008" selection-end="60032" vertical-scroll-proportion="0.0" vertical-offset="25970" max-vertical-offset="38190">
-          <folding />
-        </state>
+        <state line="1741" column="44" selection-start="60008" selection-end="60032" vertical-scroll-proportion="0.0" vertical-offset="25970" max-vertical-offset="38190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/old/index_old.php">
@@ -619,65 +582,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.5" vertical-offset="300" max-vertical-offset="975">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.5" vertical-offset="300" max-vertical-offset="975" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/include_paths.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5775">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5775" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-10.626" vertical-offset="5313" max-vertical-offset="9555">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-10.626" vertical-offset="5313" max-vertical-offset="9555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/initPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="-7.2916665" vertical-offset="170" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="-7.2916665" vertical-offset="170" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/initMenu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="287" selection-end="287" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="6" column="37" selection-start="287" selection-end="287" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_user.php">
@@ -689,9 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/articles.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/categories.tpl">
@@ -703,9 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/categoriesclient.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/commande.tpl">
@@ -717,9 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/compte.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.625" vertical-offset="375" max-vertical-offset="2070">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.625" vertical-offset="375" max-vertical-offset="2070" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/connexion.tpl">
@@ -732,26 +671,7 @@
     <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.916666" vertical-offset="502" max-vertical-offset="1080">
-          <folding>
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1421094812000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,28 +705,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/panier_full.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="87" selection-start="964" selection-end="964" vertical-scroll-proportion="-9.208333" vertical-offset="229" max-vertical-offset="1095">
+        <state line="30" column="87" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/paramcompte.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="328" selection-end="328" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="16" column="9" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="31" selection-start="1586" selection-end="1586" vertical-scroll-proportion="-4.0833335" vertical-offset="712" max-vertical-offset="1080">
+        <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
@@ -825,30 +738,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old/recherche.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="46" selection-start="33" selection-end="2094" vertical-scroll-proportion="-22.083334" vertical-offset="145" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="124" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-8.125" vertical-offset="180" max-vertical-offset="1395">
+        <state line="25" column="124" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125" vertical-offset="45" max-vertical-offset="915">
+        <state line="8" column="72" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/recherche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="46" selection-start="33" selection-end="2094" vertical-scroll-proportion="0.6875" vertical-offset="411" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1828" selection-end="1828" vertical-scroll-proportion="-40.625" vertical-offset="0" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="191" selection-end="191" vertical-scroll-proportion="0.3802817" vertical-offset="0" max-vertical-offset="2280">
+        <state line="146" column="30" selection-start="6035" selection-end="6035" vertical-scroll-proportion="4.4375" vertical-offset="486" max-vertical-offset="2295">
           <folding />
         </state>
       </provider>
