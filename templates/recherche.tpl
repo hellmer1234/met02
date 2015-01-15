@@ -1,8 +1,7 @@
 {extends file="parent.tpl"}
 {block name="content"}
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7" id="catalogue"
-     style="background-color:orange;">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7" id="catalogue">
 	<h4>Résultats de recherche</h4>
     <form action="index.php?section=catalogue&amp;action=recherche" method="POST">
 	<div class="row">

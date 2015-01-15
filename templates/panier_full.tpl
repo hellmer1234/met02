@@ -61,7 +61,3 @@
 {block name="right_haut"}
     {include file="panier.tpl"}
 {/block}
-
-{block name="right_bas"}
-    {include file="news.tpl"}
-{/block}

@@ -2,7 +2,7 @@
 {block name="content"}
 
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
-	<h4>Article {$nom}</h4>
+	<h4>{$nom}</h4>
 
 	<input type="hidden" id="idarticle" value="{$id}" />
 
@@ -12,13 +12,13 @@
 			<div class="row">
 				{$description}
 			</div>
+			<div class="row">
+				En stock : <span id="stock">{$stock}</span> pièces
+			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 			<div class="row">
-				{$prixht} € HT
-			</div>
-			<div class="row">
-				Stock restant : <span id="stock">{$stock}</span> pièces
+				<p class="prixarticle">{$prixht} € HT</p>
 			</div>
 		</div>
 
@@ -29,23 +29,10 @@
 
             {if $connected}
                 <input type="number" size="5" min="0" name="qte{$id}" id="qte{$id}" value="0" class="input-number-panier"/>
-                <a href="javascript:addItemToBasket({$id_client}, {$id})" class="btn btn-primary">Ajouter au panier</a>
+                <a href="javascript:addItemToBasket({$id_client}, {$id})" class="btn btn-primary">Panier</a>
             {/if}
 
         </div>
-	</div>
-
-	<div class="row tabdetails">
-		<table>
-			<tr>
-				<th>Type d'outil</th>
-				<th>Matériaux</th>
-			</tr>
-			<tr>
-				<td>{$refarticle}</td>
-				<td>Métal, manche caoutchouc</td>
-			</tr>
-		</table>
 	</div>
 
 	{foreach from=$listeavis item=avis}

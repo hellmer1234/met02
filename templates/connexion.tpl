@@ -8,7 +8,7 @@
     	<a href="index.php?section=user&amp;action=inscription" class="btn btn-default">S'inscrire</a>
     </form>
     {else}
-    <h4 class="titrebienvenue">Bonjour {$smarty.session.prenom} {$smarty.session.nom}</h4>
+    <h5>Bonjour {$smarty.session.prenom} {$smarty.session.nom}</h5>
         {if {$smarty.session.id_commande} ne 0}
             <a href="index.php?section=panier&amp;id_commande={$smarty.session.id_commande}" class="btn btn-default">Votre panier</a>
         {/if}

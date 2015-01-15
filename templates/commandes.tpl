@@ -41,7 +41,3 @@
 {block name="right_haut"}
 	{include file="connexion.tpl"}
 {/block}
-
-{block name="right_bas"}
-	{include file="news.tpl"}
-{/block}

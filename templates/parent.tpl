@@ -79,7 +79,7 @@
 		<footer class="row" style="border:1px solid #ddd;">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-lg-offset-0"
 				 style="background-color:rgb(230,230,230);height:100px;">
-				<h3>Footer</h3>
+				<h6>Site réalisé par Louis-Marie RICHARD et Eloïse FAUST</h6>
 			</div>
 		</footer>
 
