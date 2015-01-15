@@ -76,6 +76,16 @@ class Controleuruser implements ControleurMet
 		$_SESSION['nom'] = $client->getNom();
 		$_SESSION['prenom'] = $client->getPrenom();
 		$_SESSION['panier'] = 0;
+        $_SESSION['id_commande'] = 0;
+
+        foreach($client->getCommandes() as $commande)
+        {
+            if ($commande->getEtatcommande() != "Payee")
+            {
+                $_SESSION['id_commande'] = $commande->getIdcommande();
+
+            }
+        }
 
 		header("Location: index.php");
 	}

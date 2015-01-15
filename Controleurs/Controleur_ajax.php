@@ -25,13 +25,66 @@ class Controleurajax implements ControleurMet
     }
 
     public function ajoutPanier(){
-        $qte = $_POST['Qte'];
-        $article = $_POST['article'];
-        if($_SESSION['panier'] == 0){
+        $qte = $_POST['qte'];
+        $id_article = $_POST['id_article'];
+        $id_client = $_POST['id_client'];
+
+
+        /*if($_SESSION['panier'] == 0){
             $_SESSION['panier'] = array('id' => $article, 'qte' => $qte);
+        }*/
+
+        $client = ClientQuery::create()->findPk($id_client);
+        $id_commande = 0;
+        foreach($client->getCommandes() as $commande)
+        {
+            if ($commande->getEtatcommande() != "Payee")
+            {
+                $id_commande = $commande->getIdcommande();
+
+            }
+        }
+        if ($id_commande == 0)
+        {
+            $commandeToCreateOrUpdate = new Commande();
+            $commandeToCreateOrUpdate->setIdclient($id_client);
+            $commandeToCreateOrUpdate->setEtatcommande("Panier");
+            $commandeToCreateOrUpdate->save();
+
+            $panierToCreateOrUpdate = new Panier();
+            $panierToCreateOrUpdate->setCommande($commandeToCreateOrUpdate);
+            $panierToCreateOrUpdate->setIdarticle($id_article);
+            $panierToCreateOrUpdate->setQuantite($qte);
+            $panierToCreateOrUpdate->save();
+        }
+        else
+        {
+            $commandeToCreateOrUpdate = CommandeQuery::create()->findPk($id_commande);
+            $panierToCreateOrUpdate = PanierQuery::create()->filterByIdarticle($id_article)
+                ->filterByIdcommande($id_commande)->findOne();
+
+            if (is_null($panierToCreateOrUpdate))
+            {
+                $panierToCreateOrUpdate = new Panier();
+                $panierToCreateOrUpdate->setCommande($commandeToCreateOrUpdate);
+                $panierToCreateOrUpdate->setIdarticle($id_article);
+                $panierToCreateOrUpdate->setQuantite($qte);
+            }
+            else
+            {
+                $panierToCreateOrUpdate->setQuantite($panierToCreateOrUpdate->getQuantite() + $qte);
+            }
+
+
+
+            $panierToCreateOrUpdate->save();
+
         }
 
-        $this->displayData(print_r($_SESSION['panier']));
+
+
+
+        $this->displayData("ajout_ok");
     }
 
     public function displayData($data)

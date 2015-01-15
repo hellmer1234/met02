@@ -9,7 +9,9 @@
     </form>
     {else}
     <h4>Bonjour {$smarty.session.prenom} {$smarty.session.nom}</h4>
-        <a href="index.php?section=panier&amp;id_commande=1" class="btn btn-default">Votre panier</a>
+        {if {$smarty.session.id_commande} ne 0}
+            <a href="index.php?section=panier&amp;id_commande={$smarty.session.id_commande}" class="btn btn-default">Votre panier</a>
+        {/if}
         <a href="index.php?section=user&amp;action=deconnexion" class="btn btn-default">Se déconnecter</a>
     {/if}
     

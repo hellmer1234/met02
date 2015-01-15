@@ -1,4 +1,4 @@
-function ajoutPanier(){
+function ajoutPanier(id_client, id_article, qte){
 	var stock = $("#stock").text();
 	var qte = $("#qte").val();
 	var article = $("#idarticle").val();
@@ -50,4 +50,19 @@ function request(callback, qte, article) {
 function readData(sData) {
 	// On peut maintenant traiter les données sans encombrer l'objet XHR
 	console.log(sData);
+}
+
+function addItemToBasket(id_client, id_article)
+{
+    qte = $("#qte"+id_article).val();
+
+    $.ajax({
+        type: "POST",
+        url: "index.php?section=ajax&action=ajoutPanier",
+        data: "id_article="+id_article + "&id_client="+id_client+ "&qte="+qte,
+        success: function( data ) {
+            alert( "Le produit a bien été ajouté au panier");
+            }
+    });
+
 }

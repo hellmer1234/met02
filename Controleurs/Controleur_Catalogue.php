@@ -12,6 +12,11 @@ class Controleurcatalogue implements ControleurMet
 
         $this->_template = "./templates/catalogue.tpl";
         $this->_smarty =$smarty;
+        if (isset($_SESSION) and isset($_SESSION['idclient']))
+        {
+            $this->_smarty->assign('id_client', $_SESSION['idclient']);
+        }
+
     }
 
     /*
