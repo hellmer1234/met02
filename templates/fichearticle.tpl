@@ -5,6 +5,8 @@
      style="background-color:orange;">
 	<h4>Article {$nom}</h4>
 
+	<input type="hidden" id="idarticle" value="{$id}" />
+
 	<div class="row">
 		
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8" style="background: cyan">
@@ -17,7 +19,7 @@
 				{$prixht} € HT
 			</div>
 			<div class="row">
-				Stock restant : {$stock} pièces
+				Stock restant : <span id="stock">{$stock}</span> pièces
 			</div>
 		</div>
 
@@ -25,7 +27,7 @@
 
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-offset-8 col-md-offset-6 col-sm-offset-6">
-			<input type="number" value="0" name="qte" id="qte"/> <button class="btn btn-primary">Ajouter</button>
+			<input type="number" value="0" name="qte" id="qte"/> <button class="btn btn-primary" onClick="ajoutPanier();">Ajouter</button>
 		</div>
 	</div>
 

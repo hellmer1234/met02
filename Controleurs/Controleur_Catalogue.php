@@ -122,7 +122,7 @@ class Controleurcatalogue implements ControleurMet
         $idarticle = intval($_GET["article"]); // Intval permet d'être sur d'avoir une valeur entière. Si conversion impossible, retourne 0
 
         $article = ArticleQuery::create()->findPk($idarticle);
-
+        $this->_smarty->assign("id", $article->GetIdArticle());
         $this->_smarty->assign("refarticle", $article->GetReferenceArticle());
         $this->_smarty->assign("nom", $article->GetLibelleArticle());
         $this->_smarty->assign("description",$article->GetDescriptionArticle());

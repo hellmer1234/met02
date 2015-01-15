@@ -75,6 +75,7 @@ class Controleuruser implements ControleurMet
 		$_SESSION['login'] = $client->getLogin();
 		$_SESSION['nom'] = $client->getNom();
 		$_SESSION['prenom'] = $client->getPrenom();
+		$_SESSION['panier'] = 0;
 
 		header("Location: index.php");
 	}

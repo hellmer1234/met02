@@ -1,89 +1,90 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>L'empire des vis - Accueil</title>
+	<head>
+		<meta charset="utf-8">
+		<title>L'empire des vis - Accueil</title>
 
-        <script src="./resources/jquery/js/jquery.min.js"></script>
-        <script src="./resources/bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="./resources/jquery/js/jquery.min.js"></script>
+		<script type="text/javascript" src="./resources/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="./resources/js/global.js"></script>
 
-        <link rel="stylesheet" href="./resources/jquery/css/jquery.min.css">
-        <link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./resources/css/web.css">
+		<link rel="stylesheet" href="./resources/jquery/css/jquery.min.css">
+		<link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./resources/css/web.css">
 
-    </head>
-    <body>
+	</head>
+	<body>
 
-    <div class="container">
+	<div class="container">
 
-        <header class="row" style="border:1px solid #ddd;">
-            <div style="height:90px;">
-                <h1><a href="index.php"><img src="Pictures/Banniere_bleue.jpg" alt="L'Empire des Vis"/> </a></h1>
-            </div>
-        </header>
+		<header class="row" style="border:1px solid #ddd;">
+			<div style="height:90px;">
+				<h1><a href="index.php"><img src="Pictures/Banniere_bleue.jpg" alt="L'Empire des Vis"/> </a></h1>
+			</div>
+		</header>
 
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <form class="navbar-form navbar-left" role="search" action="index.php?section=catalogue&amp;action=recherche" method="POST">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Rechercher" name="recherche" id="recherche">
-                    </div>
-                    <button type="submit" class="btn btn-default glyphicon glyphicon-search"> Rechercher...</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.php">Accueil</a></li>
-                    <li><a href="index.php?section=catalogue">Catalogue</a></li>
-                    {if $connected}
-                    <li><a href="index.php?section=user&amp;action=compte">Compte</a></li>
-                    {else}
-                    <li><a href="#">Panier</a></li>
-                    {/if}
-                    <li><a href="#">L'Empire des Vis</a></li>
-                    <li><a href="#">Contactez nous</a></li>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<form class="navbar-form navbar-left" role="search" action="index.php?section=catalogue&amp;action=recherche" method="POST">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Rechercher" name="recherche" id="recherche">
+					</div>
+					<button type="submit" class="btn btn-default glyphicon glyphicon-search"> Rechercher...</button>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.php">Accueil</a></li>
+					<li><a href="index.php?section=catalogue">Catalogue</a></li>
+					{if $connected}
+					<li><a href="index.php?section=user&amp;action=compte">Compte</a></li>
+					{else}
+					<li><a href="#">Panier</a></li>
+					{/if}
+					<li><a href="#">L'Empire des Vis</a></li>
+					<li><a href="#">Contactez nous</a></li>
 
-                </ul>
-            </div>
-        </nav>
+				</ul>
+			</div>
+		</nav>
 
-        <div class="row" style="border:1px solid #ddd;">
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2"
-                 style="background-color:red;">
-                {block name="left"}
-                    {$smarty.block.child}
-                {/block}
+		<div class="row" style="border:1px solid #ddd;">
+			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2"
+				 style="background-color:red;">
+				{block name="left"}
+					{$smarty.block.child}
+				{/block}
 
-                {block name="left_bas"}
-                    {$smarty.block.child}
-                {/block}
+				{block name="left_bas"}
+					{$smarty.block.child}
+				{/block}
 
-            </div>
+			</div>
 
-            {block name="content"}
-                {$smarty.block.child}
-            {/block}
+			{block name="content"}
+				{$smarty.block.child}
+			{/block}
 
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                {block name="right_haut"}
-                    {$smarty.block.child}
-                {/block}
+			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+				{block name="right_haut"}
+					{$smarty.block.child}
+				{/block}
 
 
-                {block name="right_bas"}
-                    {$smarty.block.child}
-                {/block}
+				{block name="right_bas"}
+					{$smarty.block.child}
+				{/block}
 
-            </div>
+			</div>
 
-        </div>
+		</div>
 
-        <footer class="row" style="border:1px solid #ddd;">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-lg-offset-0"
-                 style="background-color:mistyrose;height:100px;">
-                <h3>Footer</h3>
-            </div>
-        </footer>
+		<footer class="row" style="border:1px solid #ddd;">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-lg-offset-0"
+				 style="background-color:mistyrose;height:100px;">
+				<h3>Footer</h3>
+			</div>
+		</footer>
 
-    </div>
+	</div>
 
-    </body>
+	</body>
 </html>

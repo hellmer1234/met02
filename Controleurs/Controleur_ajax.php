@@ -24,6 +24,16 @@ class Controleurajax implements ControleurMet
         
     }
 
+    public function ajoutPanier(){
+        $qte = $_POST['Qte'];
+        $article = $_POST['article'];
+        if($_SESSION['panier'] == 0){
+            $_SESSION['panier'] = array('id' => $article, 'qte' => $qte);
+        }
+
+        $this->displayData(print_r($_SESSION['panier']));
+    }
+
     public function displayData($data)
     {
         $this->_smarty->assign("data" , $data);
