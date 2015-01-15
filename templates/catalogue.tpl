@@ -37,7 +37,7 @@
 
             {if $connected}
             <p>
-	            <input type="number" size="5" name="qte{$produit.id}" id="qte{$produit.id}" value="0" class="input-number-panier"/>
+	            <input type="number" size="5" min="0" name="qte{$produit.id}" id="qte{$produit.id}" value="0" class="input-number-panier"/>
 				<a href="javascript:addItemToBasket({$id_client}, {$produit.id})" class="btn btn-primary">Panier</a>
 			</p>
                 {/if}

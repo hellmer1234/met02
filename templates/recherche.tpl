@@ -42,7 +42,7 @@
 		<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
 			<p>{$produit.prix} € HT<br />
                 {if $connected}
-                    <input type="number" size="5" name="qte{$produit.id}" id="qte{$produit.id}" value="0" class="input-number-panier"/>
+                    <input type="number" size="5" min="0" name="qte{$produit.id}" id="qte{$produit.id}" value="0" class="input-number-panier"/>
                     <a href="javascript:addItemToBasket({$id_client}, {$produit.id})" class="btn btn-primary">Ajouter au panier</a>
                 {/if}
 		</div>

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="Ajout au p">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/catalogue.tpl" afterPath="$PROJECT_DIR$/templates/catalogue.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.tpl" afterPath="$PROJECT_DIR$/templates/index.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/fichearticle.tpl" afterPath="$PROJECT_DIR$/templates/fichearticle.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/recherche.tpl" afterPath="$PROJECT_DIR$/templates/recherche.tpl" />
     </list>
     <list id="e392970f-07f2-40e8-a591-b3c976527989" name="Failed commit: Default" comment="Rajout de la recherche dans le dispatcher" />
     <ignored path="web.iws" />
@@ -46,13 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fichearticle.tpl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="fichearticle.tpl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="652" selection-end="652" vertical-scroll-proportion="17.0" vertical-offset="843" max-vertical-offset="1170">
-              <folding>
-                <marker date="1421324996000" expanded="true" signature="679:928" placeholder="..." />
-              </folding>
+            <state line="30" column="53" selection-start="733" selection-end="733" vertical-scroll-proportion="0.58715594" vertical-offset="258" max-vertical-offset="1170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recherche.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/recherche.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="57" selection-start="1503" selection-end="1503" vertical-scroll-proportion="-4.6666665" vertical-offset="548" max-vertical-offset="1050">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalogue.tpl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="catalogue.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.7165605" vertical-offset="420" max-vertical-offset="1005">
+            <state line="39" column="54" selection-start="1293" selection-end="1302" vertical-scroll-proportion="-6.875" vertical-offset="420" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -107,17 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="36" column="9" selection-start="822" selection-end="822" vertical-scroll-proportion="-10.583333" vertical-offset="286" max-vertical-offset="1125">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connexion.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/connexion.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="924" selection-end="924" vertical-scroll-proportion="-8.083333" vertical-offset="1" max-vertical-offset="345">
-              <folding>
-                <marker date="1421324996000" expanded="true" signature="668:1036" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -172,12 +168,10 @@
         <option value="$PROJECT_DIR$/Controleurs/test" />
         <option value="$PROJECT_DIR$/resources/css/web.css" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_Catalogue.php" />
-        <option value="$PROJECT_DIR$/templates/recherche.tpl" />
         <option value="$PROJECT_DIR$/resources/js/global.js" />
         <option value="$PROJECT_DIR$/templates/parent.tpl" />
         <option value="$PROJECT_DIR$/templates/texte.txt" />
         <option value="$PROJECT_DIR$/templates/connexion.tpl" />
-        <option value="$PROJECT_DIR$/templates/fichearticle.tpl" />
         <option value="$PROJECT_DIR$/resources/js/valid_form.js" />
         <option value="$PROJECT_DIR$/templates/inscription.tpl" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_ajax.php" />
@@ -187,6 +181,8 @@
         <option value="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
         <option value="$PROJECT_DIR$/templates/index.tpl" />
         <option value="$PROJECT_DIR$/templates/catalogue.tpl" />
+        <option value="$PROJECT_DIR$/templates/recherche.tpl" />
+        <option value="$PROJECT_DIR$/templates/fichearticle.tpl" />
       </list>
     </option>
   </component>
@@ -826,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/recherche.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="21" selection-start="1735" selection-end="1735" vertical-scroll-proportion="-22.166666" vertical-offset="158" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="59" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0" vertical-offset="487" max-vertical-offset="1095">
@@ -879,7 +868,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="924" selection-end="924" vertical-scroll-proportion="-8.083333" vertical-offset="1" max-vertical-offset="345">
           <folding>
-            <marker date="1421324996000" expanded="true" signature="668:1036" placeholder="..." />
+            <marker date="1421324996000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -895,15 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-1.25" vertical-offset="150" max-vertical-offset="720">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="652" selection-end="652" vertical-scroll-proportion="17.0" vertical-offset="843" max-vertical-offset="1170">
-          <folding>
-            <marker date="1421324996000" expanded="true" signature="679:928" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,7 +924,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.7165605" vertical-offset="420" max-vertical-offset="1005">
+        <state line="39" column="54" selection-start="1293" selection-end="1302" vertical-scroll-proportion="-6.875" vertical-offset="420" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recherche.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="57" selection-start="1503" selection-end="1503" vertical-scroll-proportion="-4.6666665" vertical-offset="548" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="53" selection-start="733" selection-end="733" vertical-scroll-proportion="0.58715594" vertical-offset="258" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
