@@ -73,6 +73,7 @@ class Controleurcatalogue implements ControleurMet
 
     public function recherche()
     {
+
         $recherche = $_POST['recherche'];
         $listeArticlesNom = array();
         $listeArticlesDesc = array();
@@ -99,16 +100,43 @@ class Controleurcatalogue implements ControleurMet
         $catalogue = array();
         $categories = array();
 
-        foreach ($listeArticlesNom as $article) {
-            $catalogue[$article->getIdArticle()] = array("id" => $article->getIdArticle(), "nom" => $article->GetLibelleArticle(), "desc" => $article->getDescriptionArticle(), "prix" =>$article->getPrixHT());
+        $ids = array();
+
+        foreach ($listeArticlesNom as $article)
+        {
+            if (!is_null($article))
+            {
+                if (!in_array($article->getIdArticle(), $ids))
+                {
+                    $ids[count($ids)] = $article->getIdArticle();
+                    $catalogue[count($catalogue)] = array("id" => $article->getIdArticle(), "nom" => $article->GetLibelleArticle(), "desc" => $article->getDescriptionArticle(), "prix" =>$article->getPrixHT());
+                }
+            }
+
         }
 
-        foreach ($listeArticlesDesc as $article) {
-            $catalogue[$article->getIdArticle()] = array("id" => $article->getIdArticle(), "nom" => $article->GetLibelleArticle(), "desc" => $article->getDescriptionArticle(), "prix" =>$article->getPrixHT());
+        foreach ($listeArticlesDesc as $article)
+        {
+            if (!is_null($article))
+            {
+                if (!in_array($article->getIdArticle(), $ids))
+                {
+                    $ids[count($ids)] = $article->getIdArticle();
+                    $catalogue[count($catalogue)] = array("id" => $article->getIdArticle(), "nom" => $article->GetLibelleArticle(), "desc" => $article->getDescriptionArticle(), "prix" =>$article->getPrixHT());
+                }
+            }
         }
 
-        foreach ($listeArticlesRef as $article) {
-            $catalogue[$article->getIdArticle()] = array("id" => $article->getIdArticle(), "nom" => $article->GetLibelleArticle(), "desc" => $article->getDescriptionArticle(), "prix" =>$article->getPrixHT());
+        foreach ($listeArticlesRef as $article)
+        {
+            if (!is_null($article))
+            {
+                if (!in_array($article->getIdArticle(), $ids))
+                {
+                    $ids[count($ids)] = $article->getIdArticle();
+                    $catalogue[count($catalogue)] = array("id" => $article->getIdArticle(), "nom" => $article->GetLibelleArticle(), "desc" => $article->getDescriptionArticle(), "prix" =>$article->getPrixHT());
+                }
+            }
         }
 
         $this->_smarty->assign('catalogue', $catalogue);

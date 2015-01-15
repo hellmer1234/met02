@@ -128,10 +128,11 @@ class Controleuruser implements ControleurMet
 	public function commande()
 	{
 		include "initMenu.php";
+        $commandes = array();
 		$client = ClientQuery::create()->findPk($_SESSION['idclient']);
 		$commandesClient = $client->getCommandes();
 		foreach ($commandesClient as $cmde) {
-			$commandes[$cmde->getIdCommande()] = array('numCommande' => $cmde->getIdCommande(), 'etatCommande' => $cmde->getEtatCommande());
+			$commandes[count($commandes)] = array('numCommande' => $cmde->getIdCommande(), 'etatCommande' => $cmde->getEtatCommande());
 		}
 		$this->_smarty->assign('Commandes', $commandes);
 		$this->_template = "./templates/commandes.tpl";
