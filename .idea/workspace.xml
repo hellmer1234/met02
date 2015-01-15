@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60bc3303-33e9-436e-8831-6c72117fc852" name="Default" comment="Ajout au p">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controleurs/Controleur_ajax.php" afterPath="$PROJECT_DIR$/Controleurs/Controleur_ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controleurs/Controleur_index.php" afterPath="$PROJECT_DIR$/Controleurs/Controleur_index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controleurs/Controleur_panier.php" afterPath="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controleurs/Controleur_user.php" afterPath="$PROJECT_DIR$/Controleurs/Controleur_user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/catalogue.tpl" afterPath="$PROJECT_DIR$/templates/catalogue.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.tpl" afterPath="$PROJECT_DIR$/templates/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="e392970f-07f2-40e8-a591-b3c976527989" name="Failed commit: Default" comment="Rajout de la recherche dans le dispatcher" />
     <ignored path="web.iws" />
@@ -32,7 +31,36 @@
       <file leaf-file-name="parent.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="36" selection-start="906" selection-end="906" vertical-scroll-proportion="16.291666" vertical-offset="781" max-vertical-offset="1410">
+            <state line="26" column="36" selection-start="906" selection-end="906" vertical-scroll-proportion="28.791666" vertical-offset="1081" max-vertical-offset="1410">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controleur_catalogue.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="69" selection-start="430" selection-end="430" vertical-scroll-proportion="91.958336" vertical-offset="2447" max-vertical-offset="2790">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fichearticle.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="652" selection-end="652" vertical-scroll-proportion="17.0" vertical-offset="843" max-vertical-offset="1170">
+              <folding>
+                <marker date="1421324996000" expanded="true" signature="679:928" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slim_webservice.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slim_webservice.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="12" selection-start="125" selection-end="125" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -41,7 +69,7 @@
       <file leaf-file-name="Controleur_panier.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="37" selection-start="2170" selection-end="2170" vertical-scroll-proportion="-51.875" vertical-offset="0" max-vertical-offset="2130">
+            <state line="48" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="-3.75" vertical-offset="630" max-vertical-offset="2130">
               <folding />
             </state>
           </provider>
@@ -50,16 +78,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-0.625" vertical-offset="165" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controleur_user.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="64" selection-start="1479" selection-end="1535" vertical-scroll-proportion="2.5" vertical-offset="990" max-vertical-offset="3150">
+            <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-1.25" vertical-offset="150" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -68,16 +87,25 @@
       <file leaf-file-name="index.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="92" selection-start="327" selection-end="327" vertical-scroll-proportion="10.041667" vertical-offset="376" max-vertical-offset="690">
+            <state line="19" column="17" selection-start="525" selection-end="525" vertical-scroll-proportion="-9.083333" vertical-offset="67" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controleur_index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="catalogue.tpl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.7165605" vertical-offset="420" max-vertical-offset="1005">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controleur_index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="9" selection-start="822" selection-end="822" vertical-scroll-proportion="0.8089172" vertical-offset="286" max-vertical-offset="1125">
+            <state line="36" column="9" selection-start="822" selection-end="822" vertical-scroll-proportion="-10.583333" vertical-offset="286" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -86,35 +114,10 @@
       <file leaf-file-name="connexion.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/connexion.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="901" selection-end="901" vertical-scroll-proportion="-8.083333" vertical-offset="1" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controleur_ajax.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="35" selection-start="2410" selection-end="2437" vertical-scroll-proportion="-6.25" vertical-offset="1095" max-vertical-offset="1530">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inscription.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/inscription.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="0" selection-start="4080" selection-end="4080" vertical-scroll-proportion="-9.333333" vertical-offset="1381" max-vertical-offset="1695">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="valid_form.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/valid_form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="39" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.0" vertical-offset="802" max-vertical-offset="1140">
-              <folding />
+            <state line="13" column="13" selection-start="924" selection-end="924" vertical-scroll-proportion="-8.083333" vertical-offset="1" max-vertical-offset="345">
+              <folding>
+                <marker date="1421324996000" expanded="true" signature="668:1036" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,15 +166,12 @@
         <option value="$PROJECT_DIR$/templates/commande.tpl" />
         <option value="$PROJECT_DIR$/templates/categories.tpl" />
         <option value="$PROJECT_DIR$/templates/panier_full.tpl" />
-        <option value="$PROJECT_DIR$/templates/index.tpl" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_catalogue.php" />
-        <option value="$PROJECT_DIR$/slim_webservice.php" />
         <option value="$PROJECT_DIR$/templates/panier.tpl" />
         <option value="$PROJECT_DIR$/templates/ajax.tpl" />
         <option value="$PROJECT_DIR$/Controleurs/test" />
         <option value="$PROJECT_DIR$/resources/css/web.css" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_Catalogue.php" />
-        <option value="$PROJECT_DIR$/templates/catalogue.tpl" />
         <option value="$PROJECT_DIR$/templates/recherche.tpl" />
         <option value="$PROJECT_DIR$/resources/js/global.js" />
         <option value="$PROJECT_DIR$/templates/parent.tpl" />
@@ -181,14 +181,18 @@
         <option value="$PROJECT_DIR$/resources/js/valid_form.js" />
         <option value="$PROJECT_DIR$/templates/inscription.tpl" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_ajax.php" />
-        <option value="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_user.php" />
         <option value="$PROJECT_DIR$/Controleurs/Controleur_index.php" />
+        <option value="$PROJECT_DIR$/slim_webservice.php" />
+        <option value="$PROJECT_DIR$/Controleurs/Controleur_panier.php" />
+        <option value="$PROJECT_DIR$/templates/index.tpl" />
+        <option value="$PROJECT_DIR$/templates/catalogue.tpl" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="728" />
@@ -539,7 +543,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="728" extended-state="6" />
+    <frame x="1" y="23" width="1280" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -743,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slim_webservice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="57" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="15" selection-start="307" selection-end="474" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="330">
@@ -829,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_Catalogue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="69" selection-start="430" selection-end="430" vertical-scroll-proportion="-1.875" vertical-offset="195" max-vertical-offset="2790">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/recherche.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="21" selection-start="1735" selection-end="1735" vertical-scroll-proportion="-22.166666" vertical-offset="158" max-vertical-offset="1050">
@@ -857,20 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="21" selection-start="1207" selection-end="1488" vertical-scroll-proportion="-5.625" vertical-offset="480" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="-1.2083334" vertical-offset="406" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/valid_form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="39" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.0" vertical-offset="802" max-vertical-offset="1140">
@@ -878,37 +854,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="906" selection-end="906" vertical-scroll-proportion="16.291666" vertical-offset="781" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="92" selection-start="327" selection-end="327" vertical-scroll-proportion="10.041667" vertical-offset="376" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/inscription.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="0" selection-start="4080" selection-end="4080" vertical-scroll-proportion="-9.333333" vertical-offset="1381" max-vertical-offset="1695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-0.625" vertical-offset="165" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="37" selection-start="2170" selection-end="2170" vertical-scroll-proportion="-51.875" vertical-offset="0" max-vertical-offset="2130">
           <folding />
         </state>
       </provider>
@@ -929,14 +877,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/connexion.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="901" selection-end="901" vertical-scroll-proportion="-8.083333" vertical-offset="1" max-vertical-offset="345">
-          <folding />
+        <state line="13" column="13" selection-start="924" selection-end="924" vertical-scroll-proportion="-8.083333" vertical-offset="1" max-vertical-offset="345">
+          <folding>
+            <marker date="1421324996000" expanded="true" signature="668:1036" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="9" selection-start="822" selection-end="822" vertical-scroll-proportion="0.8089172" vertical-offset="286" max-vertical-offset="1125">
+        <state line="36" column="9" selection-start="822" selection-end="822" vertical-scroll-proportion="-10.583333" vertical-offset="286" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="-1.25" vertical-offset="150" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fichearticle.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="652" selection-end="652" vertical-scroll-proportion="17.0" vertical-offset="843" max-vertical-offset="1170">
+          <folding>
+            <marker date="1421324996000" expanded="true" signature="679:928" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slim_webservice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="125" selection-end="125" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="-3.75" vertical-offset="630" max-vertical-offset="2130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/parent.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="36" selection-start="906" selection-end="906" vertical-scroll-proportion="28.791666" vertical-offset="1081" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="17" selection-start="525" selection-end="525" vertical-scroll-proportion="-9.083333" vertical-offset="67" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleurs/Controleur_catalogue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="69" selection-start="430" selection-end="430" vertical-scroll-proportion="91.958336" vertical-offset="2447" max-vertical-offset="2790">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/catalogue.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.7165605" vertical-offset="420" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>

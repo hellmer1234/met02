@@ -5,7 +5,7 @@
     <div>
 
     	<h4>Nos promotions</h4>
-    	<ul classe="listepromotions">
+    	<ul class="listepromotions">
             {foreach $ArticlesPromotion as $articlepromo}
                 <li><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$articlepromo.id}">{$articlepromo.libelle}</a></li>
             {/foreach}
@@ -17,7 +17,7 @@
     <div>
 
     	<h4>Nos nouveautés</h4>
-    	<ul classe="listenouveautes">
+    	<ul class="listenouveautes">
             {foreach $Articles as $article}
                 <li><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$article.id}">{$article.libelle}</a></li>
             {/foreach}
