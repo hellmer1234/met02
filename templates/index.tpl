@@ -7,7 +7,7 @@
     	<h4>Nos promotions</h4>
     	<ul class="listepromotions">
             {foreach $ArticlesPromotion as $articlepromo}
-                <li><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$articlepromo.id}">{$articlepromo.libelle}</a></li>
+                <li><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$articlepromo.id}">{$articlepromo.libelle}</a> : {$articlepromo.prix} € HT</li>
             {/foreach}
         </ul>
 
@@ -19,7 +19,7 @@
     	<h4>Nos nouveautés</h4>
     	<ul class="listenouveautes">
             {foreach $Articles as $article}
-                <li><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$article.id}">{$article.libelle}</a></li>
+                <li><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$article.id}">{$article.libelle}</a> : {$article.prix} € HT</li>
             {/foreach}
         </ul>
 

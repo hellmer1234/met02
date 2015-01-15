@@ -40,7 +40,7 @@ class Controleurindex implements ControleurMet
         $tabArticles = array();
         foreach ($articles as $myArticle)
         {
-            $tabArticles[count($tabArticles)] = array("id" => $myArticle->getIdarticle(), "libelle" => $myArticle->getLibellearticle(), "ref" => $myArticle->getReferencearticle());
+            $tabArticles[count($tabArticles)] = array("id" => $myArticle->getIdarticle(), "libelle" => $myArticle->getLibellearticle(), "ref" => $myArticle->getReferencearticle(), "prix" => $myArticle->getPrixht());
         }
         $this->_smarty->assign("Articles" , $tabArticles);
 
@@ -56,7 +56,7 @@ class Controleurindex implements ControleurMet
                     $promo = $applipromo->getPromotion();
                     if( ( $promo->getDatedebut("Y-m-d") < date("Y-m-d") ) && ( $promo->getDatefin("Y-m-d") > date("Y-m-d")) )
                     {
-                        $tabArticlesPromotion[count($tabArticlesPromotion)] = array("id" => $myArticlePromotion->getIdarticle(), "libelle" => $myArticlePromotion->getLibellearticle(), "ref" => $myArticlePromotion->getReferencearticle());
+                        $tabArticlesPromotion[count($tabArticlesPromotion)] = array("id" => $myArticlePromotion->getIdarticle(), "libelle" => $myArticlePromotion->getLibellearticle(), "ref" => $myArticlePromotion->getReferencearticle(), "prix" => $myArticlePromotion->getPrixht());
                     }
                 }
             }
