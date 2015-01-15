@@ -18,7 +18,23 @@ class Controleurindex implements ControleurMet
     /*
      * Définition de la vue par défaut
      */
-    public function defaultView(){
+    public function defaultView()
+    {
+
+        if (isset($_SESSION["idclient"]))
+        {
+            $_SESSION['id_commande'] = 0;
+            $client = ClientQuery::create()->findPk($_SESSION["idclient"]);
+            foreach($client->getCommandes() as $commande)
+            {
+                if ($commande->getEtatcommande() != "Payee")
+                {
+                    $_SESSION['id_commande'] = $commande->getIdcommande();
+
+                }
+            }
+
+        }
 
         $articles = ArticleQuery::create()->limit(5)->find();
         $tabArticles = array();

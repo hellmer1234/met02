@@ -9,6 +9,7 @@ class Controleuruser implements ControleurMet
 
 	public function __construct($smarty)
 	{
+
 		$this->_template = "./templates/compte.tpl";
 		$this->_smarty =$smarty;
 	}

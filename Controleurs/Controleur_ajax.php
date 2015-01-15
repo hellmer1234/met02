@@ -81,7 +81,7 @@ class Controleurajax implements ControleurMet
 
         }
 
-
+        $_SESSION['id_commande'] = $commandeToCreateOrUpdate->getIdcommande();
 
 
         $this->displayData("ajout_ok");

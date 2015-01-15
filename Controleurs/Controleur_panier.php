@@ -81,7 +81,9 @@ class Controleurpanier implements ControleurMet
         $this->_smarty->assign("idCommande" , $_POST["id_commande"]);
         $this->_smarty->assign("idEtat" , "-3");
 
-        $this->_smarty->display($this->_template);
+        $_SESSION['id_commande'] = 0;
+
+            $this->_smarty->display($this->_template);
     }
 
     public function composePanier($id_commande)
