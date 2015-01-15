@@ -57,3 +57,51 @@ th, td {
 #listeAdresses  div.row:last-child{
 	border-bottom: 1px solid black;
 }
+
+.input-number-panier
+{
+width : 50px;
+}
+
+.blocknews{
+	padding: 5px;
+	background-color:rgb(237,245,248);
+	border-top: 1px groove;
+	border-width: 2px;
+	border-color:black;
+}
+.titrenews{
+	font-size: 25px;
+	color:rgb(114,174,202);
+	padding-left:10px;
+}
+
+.blockconnexion{
+	padding: 5px;
+}
+
+.blockcategorie{
+	padding: 3px; 
+}
+
+.listecategorie{
+	list-style-type:none;
+	background-color:rgb(255,255,255);
+	padding: 10px;
+}
+
+.accueil{
+
+
+}
+
+
+.listepromotions{
+	list-style-type:none;
+
+}
+
+.listenouveautes{
+	list-style-type:none;
+
+}

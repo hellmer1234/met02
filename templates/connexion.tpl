@@ -1,4 +1,4 @@
-<div>
+<div class="blockconnexion">
     <h3>Compte client</h3>
     {if !$connected}
     <form action="index.php?section=user&amp;action=connexion" method="post">

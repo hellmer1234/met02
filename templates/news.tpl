@@ -1,6 +1,6 @@
-<div style="background-color:#6E92A1">
+<div class="blocknews">
 
-    <h3>News</h3>
+    <h3 class="titrenews">News</h3>
 
-    <p>Le site est en développement ! Soyez patient !</p>
+    <p>Ouverture du site le 15 janvier 2015 - Cher visiteur, bienvenue sur notre site de commerce en ligne de pièces de bricolage. Vous trouverez ici vis, marteau, clou, etc. Bonne navigation !</p>
 </div>

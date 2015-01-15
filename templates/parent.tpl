@@ -47,8 +47,7 @@
 		</nav>
 
 		<div class="row" style="border:1px solid #ddd;">
-			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2"
-				 style="background-color:red;">
+			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
 				{block name="left"}
 					{$smarty.block.child}
 				{/block}
