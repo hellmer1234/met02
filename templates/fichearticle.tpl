@@ -1,20 +1,19 @@
 {extends file="parent.tpl"}
 {block name="content"}
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7"
-     style="background-color:orange;">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
 	<h4>Article {$nom}</h4>
 
 	<input type="hidden" id="idarticle" value="{$id}" />
 
 	<div class="row">
 		
-		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8" style="background: cyan">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
 			<div class="row">
 				{$description}
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: darkgrey">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 			<div class="row">
 				{$prixht} € HT
 			</div>
@@ -36,7 +35,7 @@
         </div>
 	</div>
 
-	<div class="row">
+	<div class="row tabdetails">
 		<table>
 			<tr>
 				<th>Type d'outil</th>

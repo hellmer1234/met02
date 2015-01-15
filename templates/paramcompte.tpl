@@ -1,5 +1,5 @@
 
-<div style="background-color:skyblue;">
+<div class="blockinfocompte">
     <h4>Informations</h4>
 
     {if $menuOK eq '1'}

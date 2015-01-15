@@ -3,6 +3,10 @@ h1
     text-align: center;
 }
 
+ul li {
+	list-style-type: none;
+}
+
 #erreur_catch
 {
     display: none;
@@ -22,16 +26,36 @@ h1
 }
 
 table {
-	border:1px solid black;
 	width: 100%;
 }
 
 th, td {
-	border: 1px solid black;
+	border-top: 1px solid black;
 }
 
-#catalogue .catalogue-item{
-	border: 1px solid black;
+.tabdetails{
+	margin-top: 25px;
+}
+
+#catalogue .catalogue-filters{
+	margin-bottom: 10px;
+}
+
+#catalogue .catalogue-item,
+#panier .panier-item{
+	border-top: 1px solid black;
+}
+
+#catalogue .catalogue-item .item-titre,
+#panier .panier-item .item-titre{
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+#catalogue .catalogue-item .item-prix{
+	text-align: center;
+	font-weight: bold;
 }
 
 .form-control{
@@ -49,13 +73,7 @@ th, td {
 #listeCommandes > div,
 #listeAdresses > div{
 	border-top: 1px solid black;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-}
-
-#listeCommandes div.row:last-child,
-#listeAdresses  div.row:last-child{
-	border-bottom: 1px solid black;
+	margin-bottom: 10px;
 }
 
 .input-number-panier
@@ -82,26 +100,26 @@ width : 50px;
 
 .blockcategorie{
 	padding: 3px; 
+	background-color:rgb(237,245,248);
 }
 
 .listecategorie{
 	list-style-type:none;
-	background-color:rgb(255,255,255);
 	padding: 10px;
 }
 
-.accueil{
-
-
-}
-
-
 .listepromotions{
 	list-style-type:none;
-
 }
 
 .listenouveautes{
 	list-style-type:none;
+}
 
+.blockinfocompte{
+	background-color:rgb(215,215,215);
+}
+
+.titrebienvenue{
+	font-size: 20px;
 }

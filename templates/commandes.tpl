@@ -1,8 +1,7 @@
 {extends file="parent.tpl"}
 {block name="content"}
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7"
-	 style="background-color:orange;">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
 	<h4>Mes commandes</h4>
 
 	<div id="listeCommandes">
@@ -25,7 +24,7 @@
 				{$cmde.etatCommande}
 			</div>
 			<div class="col-xs12 col-sm-4 col-md-4 col-lg-4">
-			<a href="index.php?section=user&amp;action=consulterCommande&amp;commande={$cmde.numCommande}" class="btn btn-default">Consulter la commande</a>
+			<a href="index.php?section=user&amp;action=consulterCommande&amp;commande={$cmde.numCommande}" class="btn btn-default">Consulter</a>
 			</div>
 		</div>
 		{/foreach}

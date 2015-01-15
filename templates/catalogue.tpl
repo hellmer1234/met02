@@ -1,11 +1,10 @@
 {extends file="parent.tpl"}
 {block name="content"}
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7" id="catalogue"
-     style="background-color:orange;">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7" id="catalogue">
 	<h4>Catalogue</h4>
 
-	<div class="row">
+	<div class="row catalogue-filters">
 		<form action="?section=catalogue&amp;action=filtre" method="post">
 			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
 				<label for="categorie">Catégorie</label>
@@ -30,15 +29,17 @@
 	{foreach from=$catalogue item=produit}
 	<div class="row catalogue-item">
 		<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-			<p><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$produit.id}">{$produit.nom}</a><br />
+			<p><a class="item-titre" href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$produit.id}">{$produit.nom}</a><br />
 			{$produit.desc}</p>
 		</div>
 		<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
-			<p>{$produit.prix} € HT<br />
+			<p class="item-prix">{$produit.prix} € HT</p>
 
-                {if $connected}
-            <input type="number" size="5" name="qte{$produit.id}" id="qte{$produit.id}" value="0" class="input-number-panier"/>
-			<a href="javascript:addItemToBasket({$id_client}, {$produit.id})" class="btn btn-primary">Ajouter au panier</a>
+            {if $connected}
+            <p>
+	            <input type="number" size="5" name="qte{$produit.id}" id="qte{$produit.id}" value="0" class="input-number-panier"/>
+				<a href="javascript:addItemToBasket({$id_client}, {$produit.id})" class="btn btn-primary">Panier</a>
+			</p>
                 {/if}
 
             </p>
