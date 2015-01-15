@@ -27,7 +27,7 @@
 
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-offset-8 col-md-offset-6 col-sm-offset-6">
-			
+
             {if $connected}
                 <input type="number" size="5" name="qte{$id}" id="qte{$id}" value="0" class="input-number-panier"/>
                 <a href="javascript:addItemToBasket({$id_client}, {$id})" class="btn btn-primary">Ajouter au panier</a>

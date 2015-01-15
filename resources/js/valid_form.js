@@ -62,3 +62,10 @@ $("#button_valider").click(
             return false;
         }
 );
+
+$("#button_annuler").click(
+    function()
+    {
+        window.location.href='index.php';
+    }
+);
