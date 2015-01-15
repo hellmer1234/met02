@@ -4,16 +4,16 @@
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7" id="catalogue"
      style="background-color:orange;">
 	<h4>Résultats de recherche</h4>
-
+    <form action="index.php?section=catalogue&amp;action=recherche" method="POST">
 	<div class="row">
-		<form action="recherche.php" method="POST">
+
 			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
 				<label for="categorie">Résultats de recherche pour "{$recherche}"</label>
 				
 			</div>
 			
 			<input type="hidden" value="{$recherche}" name="recherche" id="recherche" />
-		</form>
+
 	</div>
 	
 	<div class="row">
@@ -32,11 +32,11 @@
 			<input type="submit" value="Filtrer" class="btn" />
 		</div>
 	</div>
-	
+    </form>
 	{foreach from=$catalogue item=produit}
 	<div class="row catalogue-item">
 		<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-			<p><a href="fichearticle.php?article={$produit.id}">{$produit.nom}</a><br />
+			<p><a href="index.php?section=catalogue&amp;action=viewArticle&amp;article={$produit.id}">{$produit.nom}</a><br />
 			{$produit.desc}</p>
 		</div>
 		<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
